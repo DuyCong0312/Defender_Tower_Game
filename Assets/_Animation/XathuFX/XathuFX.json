@@ -1,0 +1,94 @@
+{
+"skeleton": { "hash": "swMVUQv2bRP83ldVnJb+S1SZD04", "spine": "3.8.99" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "arrow", "parent": "root" },
+	{ "name": "rotate", "parent": "root" },
+	{ "name": "fx", "parent": "rotate" }
+],
+"slots": [
+	{ "name": "arrow", "bone": "arrow" },
+	{ "name": "fx", "bone": "fx", "dark": "000000" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"arrow": {
+				"arrow": { "width": 71, "height": 20 }
+			},
+			"fx": {
+				"fx/fx3 (1)": { "width": 400, "height": 400 },
+				"fx/fx3 (2)": { "width": 400, "height": 400 },
+				"fx/fx3 (3)": { "width": 400, "height": 400 },
+				"fx/fx3 (4)": { "width": 400, "height": 400 },
+				"fx/fx3 (5)": { "width": 400, "height": 400 },
+				"fx/fx3 (6)": { "width": 400, "height": 400 },
+				"fx/fx3 (7)": { "width": 400, "height": 400 },
+				"fx/fx3 (8)": { "width": 400, "height": 400 },
+				"fx/fx3 (9)": { "width": 400, "height": 400 },
+				"fx/fx3 (10)": { "width": 400, "height": 400 }
+			}
+		}
+	}
+],
+"animations": {
+	"AtkPhysic": {
+		"slots": {
+			"arrow": {
+				"attachment": [
+					{ "name": "arrow" }
+				]
+			}
+		}
+	},
+	"Skill": {
+		"slots": {
+			"arrow": {
+				"attachment": [
+					{ "name": "arrow" }
+				]
+			},
+			"fx": {
+				"twoColor": [
+					{ "light": "ff4600ff", "dark": "ffc600" }
+				],
+				"attachment": [
+					{ "name": "fx/fx3 (1)" },
+					{ "time": 0.1, "name": "fx/fx3 (10)" },
+					{ "time": 0.2, "name": "fx/fx3 (2)" },
+					{ "time": 0.3, "name": "fx/fx3 (3)" },
+					{ "time": 0.4, "name": "fx/fx3 (4)" },
+					{ "time": 0.5, "name": "fx/fx3 (5)" },
+					{ "time": 0.6, "name": "fx/fx3 (6)" },
+					{ "time": 0.7, "name": "fx/fx3 (7)" },
+					{ "time": 0.8, "name": "fx/fx3 (8)" },
+					{ "time": 0.9, "name": "fx/fx3 (9)" },
+					{ "time": 1, "name": "fx/fx3 (1)" }
+				]
+			}
+		},
+		"bones": {
+			"fx": {
+				"rotate": [
+					{ "angle": 12.64 }
+				],
+				"translate": [
+					{ "x": 11.87, "y": -4.89 }
+				]
+			},
+			"rotate": {
+				"rotate": [
+					{ "angle": -2.58 }
+				],
+				"translate": [
+					{ "x": -21.13, "y": 3.15 }
+				],
+				"scale": [
+					{ "x": 1.145, "y": -0.28 }
+				]
+			}
+		}
+	}
+}
+}

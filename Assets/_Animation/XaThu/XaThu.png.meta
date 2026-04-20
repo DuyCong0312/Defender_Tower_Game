@@ -1,0 +1,2873 @@
+fileFormatVersion: 2
+guid: 042b7454adeba874bb892ea415c4ec20
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1543861880106278261
+    second: XaThu_0
+  - first:
+      213: 4364080998633413150
+    second: XaThu_1
+  - first:
+      213: -5764350509569792551
+    second: XaThu_2
+  - first:
+      213: -3417744333692025058
+    second: XaThu_3
+  - first:
+      213: -7705530944071696281
+    second: XaThu_4
+  - first:
+      213: 1636956420190195660
+    second: XaThu_5
+  - first:
+      213: 9190334228406975
+    second: XaThu_6
+  - first:
+      213: 907854506696883152
+    second: XaThu_7
+  - first:
+      213: 8913241455967666172
+    second: XaThu_8
+  - first:
+      213: 4637563438047537039
+    second: XaThu_9
+  - first:
+      213: 3606837114352774777
+    second: XaThu_10
+  - first:
+      213: 4069433954627925346
+    second: XaThu_11
+  - first:
+      213: -6942766484337823477
+    second: XaThu_12
+  - first:
+      213: -5971675652448834525
+    second: XaThu_13
+  - first:
+      213: -74542650192968964
+    second: XaThu_14
+  - first:
+      213: 6817172628224186291
+    second: XaThu_15
+  - first:
+      213: 948347418366178472
+    second: XaThu_16
+  - first:
+      213: -6086204555520059476
+    second: XaThu_17
+  - first:
+      213: 1251351759027721945
+    second: XaThu_18
+  - first:
+      213: -5552840796751273721
+    second: XaThu_19
+  - first:
+      213: 5826850919351359440
+    second: XaThu_20
+  - first:
+      213: -6505643851962757396
+    second: XaThu_21
+  - first:
+      213: 6047645714514322104
+    second: XaThu_22
+  - first:
+      213: -5879709648476739973
+    second: XaThu_23
+  - first:
+      213: -2613133660197842033
+    second: XaThu_24
+  - first:
+      213: 7514195526931091605
+    second: XaThu_25
+  - first:
+      213: -4184754519149330291
+    second: XaThu_26
+  - first:
+      213: -2752893320785095126
+    second: XaThu_27
+  - first:
+      213: 103518797545728609
+    second: XaThu_28
+  - first:
+      213: 224782988802365642
+    second: XaThu_29
+  - first:
+      213: 7060533846744187507
+    second: XaThu_30
+  - first:
+      213: 4875925847864093803
+    second: XaThu_31
+  - first:
+      213: 7320285292672147969
+    second: XaThu_32
+  - first:
+      213: 6516545341607623848
+    second: XaThu_33
+  - first:
+      213: 4699552606222700614
+    second: XaThu_34
+  - first:
+      213: -7352189260502710332
+    second: XaThu_35
+  - first:
+      213: -3430738852828693717
+    second: XaThu_36
+  - first:
+      213: -6122077125878606737
+    second: XaThu_37
+  - first:
+      213: 8456612711812440121
+    second: XaThu_38
+  - first:
+      213: 7973686386648832225
+    second: XaThu_39
+  - first:
+      213: 7315668721141244367
+    second: XaThu_40
+  - first:
+      213: -2782189995469009366
+    second: XaThu_41
+  - first:
+      213: 5933868871657025648
+    second: XaThu_42
+  - first:
+      213: 7159685460913073886
+    second: XaThu_43
+  - first:
+      213: -8176356864482265531
+    second: XaThu_44
+  - first:
+      213: -8522227495085333917
+    second: XaThu_45
+  - first:
+      213: -1757203673224009038
+    second: XaThu_46
+  - first:
+      213: 1429257839709828867
+    second: XaThu_47
+  - first:
+      213: -3028562682149859654
+    second: XaThu_48
+  - first:
+      213: 4677414460537479675
+    second: XaThu_49
+  - first:
+      213: -3274121963976023862
+    second: XaThu_50
+  - first:
+      213: -6648962899779209726
+    second: XaThu_51
+  - first:
+      213: -1310706294011801304
+    second: XaThu_52
+  - first:
+      213: 6680591894609653959
+    second: XaThu_53
+  - first:
+      213: -8292570416397394523
+    second: XaThu_54
+  - first:
+      213: -9060196730748130044
+    second: XaThu_55
+  - first:
+      213: 7012519916021987566
+    second: XaThu_56
+  - first:
+      213: -182875687218622463
+    second: XaThu_57
+  - first:
+      213: -6867398005488381450
+    second: XaThu_58
+  - first:
+      213: -641023082274109133
+    second: XaThu_59
+  - first:
+      213: -3440071694735632107
+    second: XaThu_60
+  - first:
+      213: 9113674911039195975
+    second: XaThu_61
+  - first:
+      213: -80201587012758229
+    second: XaThu_62
+  - first:
+      213: 1392248648567622585
+    second: XaThu_63
+  - first:
+      213: -5783278638156973949
+    second: XaThu_64
+  - first:
+      213: -7139875202301370153
+    second: XaThu_65
+  - first:
+      213: 3194847717645231448
+    second: XaThu_66
+  - first:
+      213: -7497186401444093795
+    second: XaThu_67
+  - first:
+      213: 7577812927927081899
+    second: XaThu_68
+  - first:
+      213: -405456045804355046
+    second: XaThu_69
+  - first:
+      213: 903840135379964769
+    second: XaThu_70
+  - first:
+      213: 105852698834844480
+    second: XaThu_71
+  - first:
+      213: 4062784397972393443
+    second: XaThu_72
+  - first:
+      213: -4304411513739325374
+    second: XaThu_73
+  - first:
+      213: -1142934963897615038
+    second: XaThu_74
+  - first:
+      213: -8662240883420525938
+    second: XaThu_75
+  - first:
+      213: -1316160147415657052
+    second: XaThu_76
+  - first:
+      213: 5961981415934037525
+    second: XaThu_77
+  - first:
+      213: 7686820800432921712
+    second: XaThu_78
+  - first:
+      213: 9124090102395067000
+    second: XaThu_79
+  - first:
+      213: -6938211506895749656
+    second: XaThu_80
+  - first:
+      213: 4446589270817417151
+    second: XaThu_81
+  - first:
+      213: -5163694450096420849
+    second: XaThu_82
+  - first:
+      213: 484241433253593088
+    second: XaThu_83
+  - first:
+      213: -4025641915696607753
+    second: XaThu_84
+  - first:
+      213: 9217936773938535972
+    second: XaThu_85
+  - first:
+      213: 5974452915806720527
+    second: XaThu_86
+  - first:
+      213: -2378021585888907674
+    second: XaThu_87
+  - first:
+      213: 5642748482822513499
+    second: XaThu_88
+  - first:
+      213: 7678025837617974903
+    second: XaThu_89
+  - first:
+      213: -5639367535342788599
+    second: XaThu_90
+  - first:
+      213: 4901573296943213445
+    second: XaThu_91
+  - first:
+      213: 6989818400026125181
+    second: XaThu_92
+  - first:
+      213: -4822011487950671139
+    second: XaThu_93
+  - first:
+      213: -2060261343325700035
+    second: XaThu_94
+  - first:
+      213: -2659442863995254121
+    second: XaThu_95
+  - first:
+      213: 8032573231914960083
+    second: XaThu_96
+  - first:
+      213: 6437769523987553092
+    second: XaThu_97
+  - first:
+      213: -5117588300825633501
+    second: XaThu_98
+  - first:
+      213: -799492675341099177
+    second: XaThu_99
+  - first:
+      213: 6745855255884137840
+    second: XaThu_100
+  - first:
+      213: 1179203077704994408
+    second: XaThu_101
+  - first:
+      213: -6814010531867538793
+    second: XaThu_102
+  - first:
+      213: -6507678019735587922
+    second: XaThu_103
+  - first:
+      213: 6325551262193961300
+    second: XaThu_104
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: XaThu_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 635
+        width: 271
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d50024336ec6510800000000000000
+      internalID: 1543861880106278261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 567
+        width: 230
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a939edb84509c30800000000000000
+      internalID: 4364080998633413150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_2
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 704
+        width: 105
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5204c90c9e000b0800000000000000
+      internalID: -5764350509569792551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_3
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 703
+        width: 110
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17ce21f2abb190d0800000000000000
+      internalID: -3417744333692025058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_4
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 757
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76083d89e64701590800000000000000
+      internalID: -7705530944071696281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_5
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 707
+        width: 50
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf4b32f033a7b610800000000000000
+      internalID: 1636956420190195660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_6
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 695
+        width: 63
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb22d0f6f86a02000800000000000000
+      internalID: 9190334228406975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_7
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 757
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dbb7632dd8599c00800000000000000
+      internalID: 907854506696883152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_8
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 695
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfffc3c31e132bb70800000000000000
+      internalID: 8913241455967666172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_9
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 695
+        width: 73
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87a924406feb5040800000000000000
+      internalID: 4637563438047537039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_10
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 694
+        width: 109
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e21b3ee3f0e0230800000000000000
+      internalID: 3606837114352774777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 694
+        width: 74
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265b286fe98897830800000000000000
+      internalID: 4069433954627925346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_12
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 740
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b017e86baa656af90800000000000000
+      internalID: -6942766484337823477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_13
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 699
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c20f522a8502da0800000000000000
+      internalID: -5971675652448834525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_14
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 717
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2c1a6cadb27fef0800000000000000
+      internalID: -74542650192968964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_15
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 718
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b791dde2667b9e50800000000000000
+      internalID: 6817172628224186291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_16
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 687
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a4ff53d3f4392d00800000000000000
+      internalID: 948347418366178472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_17
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 696
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7dcdde335798ba0800000000000000
+      internalID: -6086204555520059476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_18
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 703
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d658ed7bc1bd5110800000000000000
+      internalID: 1251351759027721945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_19
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 707
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701e75f27b850f2b0800000000000000
+      internalID: -5552840796751273721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_20
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 680
+        width: 61
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d798170a022dd050800000000000000
+      internalID: 5826850919351359440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_21
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 680
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee4e80926f47b5a0800000000000000
+      internalID: -6505643851962757396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_22
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 690
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b22a0d4cbd8de350800000000000000
+      internalID: 6047645714514322104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_23
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 526
+        width: 190
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b766b1c0a33176ea0800000000000000
+      internalID: -5879709648476739973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_24
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 662
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f839a41f7c84cbbd0800000000000000
+      internalID: -2613133660197842033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_25
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 644
+        width: 114
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5909e831509c74860800000000000000
+      internalID: 7514195526931091605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_26
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 612
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80c4e5cfe3cce5c0800000000000000
+      internalID: -4184754519149330291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_27
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 634
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a261f063c12cbc9d0800000000000000
+      internalID: -2752893320785095126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_28
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 684
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ae9434cc5cf6100800000000000000
+      internalID: 103518797545728609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_29
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 623
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac89d17ffe69e1300800000000000000
+      internalID: 224782988802365642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_30
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 625
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3724fc3102e0cf160800000000000000
+      internalID: 7060533846744187507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_31
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 656
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ca51199b4caa340800000000000000
+      internalID: 4875925847864093803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_32
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 656
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1026d3c60b0e69560800000000000000
+      internalID: 7320285292672147969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_33
+      rect:
+        serializedVersion: 2
+        x: 1620
+        y: 663
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acbf39467b6f6a50800000000000000
+      internalID: 6516545341607623848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_34
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 635
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6405a21323a283140800000000000000
+      internalID: 4699552606222700614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_35
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 526
+        width: 34
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c74b4632d6c7f990800000000000000
+      internalID: -7352189260502710332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_36
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 559
+        width: 98
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bb300b0319360d0800000000000000
+      internalID: -3430738852828693717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_37
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 612
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6416784a430a0ba0800000000000000
+      internalID: -6122077125878606737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_38
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 633
+        width: 114
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93022a2d47ceb5570800000000000000
+      internalID: 8456612711812440121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_39
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 642
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e85292b58938ae60800000000000000
+      internalID: 7973686386648832225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_40
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 625
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc16f0a11f9768560800000000000000
+      internalID: 7315668721141244367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_41
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 605
+        width: 83
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e8c6690fca369d0800000000000000
+      internalID: -2782189995469009366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_42
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 605
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0707ddebc46595250800000000000000
+      internalID: 5933868871657025648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_43
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 586
+        width: 45
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edea0493eff4c5360800000000000000
+      internalID: 7159685460913073886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_44
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 308
+        width: 289
+        height: 325
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54635bf70ceb78e80800000000000000
+      internalID: -8176356864482265531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_45
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 574
+        width: 96
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3622f54fe37fab980800000000000000
+      internalID: -8522227495085333917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_46
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 594
+        width: 116
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2baa87bb1982d97e0800000000000000
+      internalID: -1757203673224009038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_47
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 569
+        width: 96
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 307b854ce6eb5d310800000000000000
+      internalID: 1429257839709828867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_48
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 615
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe047e594268f5d0800000000000000
+      internalID: -3028562682149859654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_49
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 572
+        width: 91
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1ac9b7ba389e040800000000000000
+      internalID: 4677414460537479675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_50
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 583
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0a7e9bb6bff82d0800000000000000
+      internalID: -3274121963976023862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_51
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 590
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206b8e968732ab3a0800000000000000
+      internalID: -6648962899779209726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_52
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 574
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821de8ce19f6fcde0800000000000000
+      internalID: -1310706294011801304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_53
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 597
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0ff8fceea36bc50800000000000000
+      internalID: 6680591894609653959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_54
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 578
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad58b7642fdaec80800000000000000
+      internalID: -8292570416397394523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_55
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 529
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d2a9c8317b34280800000000000000
+      internalID: -9060196730748130044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_56
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 529
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8b7dea5b9715160800000000000000
+      internalID: 7012519916021987566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_57
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 567
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1005749088b467df0800000000000000
+      internalID: -182875687218622463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_58
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 559
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f193a726e912b0a0800000000000000
+      internalID: -6867398005488381450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_59
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 557
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339c93827e0aa17f0800000000000000
+      internalID: -641023082274109133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_60
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 536
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519186915096240d0800000000000000
+      internalID: -3440071694735632107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_61
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 569
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b81e69b074a7e70800000000000000
+      internalID: 9113674911039195975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_62
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 564
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b259eafd41113eef0800000000000000
+      internalID: -80201587012758229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_63
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 554
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb04e8f4c2425310800000000000000
+      internalID: 1392248648567622585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_64
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 554
+        width: 116
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3887c8f38baadbfa0800000000000000
+      internalID: -5783278638156973949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_65
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 531
+        width: 92
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0e43a05511aec90800000000000000
+      internalID: -7139875202301370153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_66
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 529
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85526b97211665c20800000000000000
+      internalID: 3194847717645231448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_67
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 308
+        width: 254
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90290f80b4a4f790800000000000000
+      internalID: -7497186401444093795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_68
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 548
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: babd47f75bcc92960800000000000000
+      internalID: 7577812927927081899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_69
+      rect:
+        serializedVersion: 2
+        x: 1254
+        y: 513
+        width: 96
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a120cc1efd78f5af0800000000000000
+      internalID: -405456045804355046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_70
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 559
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163501b70d51b8c00800000000000000
+      internalID: 903840135379964769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_71
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 287
+        width: 232
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b31900870187100800000000000000
+      internalID: 105852698834844480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_72
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 524
+        width: 126
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edc42862e8e16830800000000000000
+      internalID: 4062784397972393443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_73
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 449
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2405774b888a344c0800000000000000
+      internalID: -4304411513739325374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_74
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 449
+        width: 91
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d3283b4ba7320f0800000000000000
+      internalID: -1142934963897615038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_75
+      rect:
+        serializedVersion: 2
+        x: 1150
+        y: 462
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a8ad0afc989c780800000000000000
+      internalID: -8662240883420525938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_76
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 448
+        width: 74
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a593c9b15f0cbde0800000000000000
+      internalID: -1316160147415657052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_77
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 453
+        width: 81
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e8a3682863db250800000000000000
+      internalID: 5961981415934037525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_78
+      rect:
+        serializedVersion: 2
+        x: 1529
+        y: 453
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c53ed9ac21daa60800000000000000
+      internalID: 7686820800432921712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_79
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 435
+        width: 128
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a5aeb4b974f9e70800000000000000
+      internalID: 9124090102395067000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_80
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 487
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed73fa056586bf90800000000000000
+      internalID: -6938211506895749656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_81
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 448
+        width: 110
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7a22df16575bd30800000000000000
+      internalID: 4446589270817417151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_82
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 502
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08c85d814fd658b0800000000000000
+      internalID: -5163694450096420849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_83
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 454
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0004b96940f58b600800000000000000
+      internalID: 484241433253593088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_84
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 474
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd0bf5a10c0228c0800000000000000
+      internalID: -4025641915696607753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_85
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 319
+        height: 303
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42edd9c38a0bcef70800000000000000
+      internalID: 9217936773938535972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_86
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 287
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02d4fdd54589e250800000000000000
+      internalID: 5974452915806720527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_87
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 277
+        width: 133
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66e61e887f19ffed0800000000000000
+      internalID: -2378021585888907674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_88
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 281
+        width: 222
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53a28b39d11f4e40800000000000000
+      internalID: 5642748482822513499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_89
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 282
+        width: 109
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77e8d73c1d3dd8a60800000000000000
+      internalID: 7678025837617974903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_90
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 271
+        width: 190
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 900e502fa11fcb1b0800000000000000
+      internalID: -5639367535342788599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_91
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 276
+        width: 190
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b27d4a1f2e50440800000000000000
+      internalID: 4901573296943213445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_92
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 311
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73eb0a1dc2d00160800000000000000
+      internalID: 6989818400026125181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_93
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 3
+        width: 301
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2f8dd8916c41db0800000000000000
+      internalID: -4822011487950671139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_94
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 3
+        width: 287
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d304a96593b7863e0800000000000000
+      internalID: -2060261343325700035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_95
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 3
+        width: 272
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a8d173ec2c71bd0800000000000000
+      internalID: -2659442863995254121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_96
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 3
+        width: 127
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d44a98cbce697f60800000000000000
+      internalID: 8032573231914960083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_97
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 237
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b1d17f54d875950800000000000000
+      internalID: 6437769523987553092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_98
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 205
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32dd796fd8caaf8b0800000000000000
+      internalID: -5117588300825633501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_99
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 170
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f54cdc5a1a7e4f0800000000000000
+      internalID: -799492675341099177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_100
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 132
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0750d293d971e9d50800000000000000
+      internalID: 6745855255884137840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_101
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 160
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e47a493fe5d5010800000000000000
+      internalID: 1179203077704994408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_102
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 93
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ac3400685cf61a0800000000000000
+      internalID: -6814010531867538793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_103
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 45
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3fa09f15510b5a0800000000000000
+      internalID: -6507678019735587922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: XaThu_104
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 4
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4594897db5fd8c750800000000000000
+      internalID: 6325551262193961300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      XaThu_0: 1543861880106278261
+      XaThu_1: 4364080998633413150
+      XaThu_10: 3606837114352774777
+      XaThu_100: 6745855255884137840
+      XaThu_101: 1179203077704994408
+      XaThu_102: -6814010531867538793
+      XaThu_103: -6507678019735587922
+      XaThu_104: 6325551262193961300
+      XaThu_11: 4069433954627925346
+      XaThu_12: -6942766484337823477
+      XaThu_13: -5971675652448834525
+      XaThu_14: -74542650192968964
+      XaThu_15: 6817172628224186291
+      XaThu_16: 948347418366178472
+      XaThu_17: -6086204555520059476
+      XaThu_18: 1251351759027721945
+      XaThu_19: -5552840796751273721
+      XaThu_2: -5764350509569792551
+      XaThu_20: 5826850919351359440
+      XaThu_21: -6505643851962757396
+      XaThu_22: 6047645714514322104
+      XaThu_23: -5879709648476739973
+      XaThu_24: -2613133660197842033
+      XaThu_25: 7514195526931091605
+      XaThu_26: -4184754519149330291
+      XaThu_27: -2752893320785095126
+      XaThu_28: 103518797545728609
+      XaThu_29: 224782988802365642
+      XaThu_3: -3417744333692025058
+      XaThu_30: 7060533846744187507
+      XaThu_31: 4875925847864093803
+      XaThu_32: 7320285292672147969
+      XaThu_33: 6516545341607623848
+      XaThu_34: 4699552606222700614
+      XaThu_35: -7352189260502710332
+      XaThu_36: -3430738852828693717
+      XaThu_37: -6122077125878606737
+      XaThu_38: 8456612711812440121
+      XaThu_39: 7973686386648832225
+      XaThu_4: -7705530944071696281
+      XaThu_40: 7315668721141244367
+      XaThu_41: -2782189995469009366
+      XaThu_42: 5933868871657025648
+      XaThu_43: 7159685460913073886
+      XaThu_44: -8176356864482265531
+      XaThu_45: -8522227495085333917
+      XaThu_46: -1757203673224009038
+      XaThu_47: 1429257839709828867
+      XaThu_48: -3028562682149859654
+      XaThu_49: 4677414460537479675
+      XaThu_5: 1636956420190195660
+      XaThu_50: -3274121963976023862
+      XaThu_51: -6648962899779209726
+      XaThu_52: -1310706294011801304
+      XaThu_53: 6680591894609653959
+      XaThu_54: -8292570416397394523
+      XaThu_55: -9060196730748130044
+      XaThu_56: 7012519916021987566
+      XaThu_57: -182875687218622463
+      XaThu_58: -6867398005488381450
+      XaThu_59: -641023082274109133
+      XaThu_6: 9190334228406975
+      XaThu_60: -3440071694735632107
+      XaThu_61: 9113674911039195975
+      XaThu_62: -80201587012758229
+      XaThu_63: 1392248648567622585
+      XaThu_64: -5783278638156973949
+      XaThu_65: -7139875202301370153
+      XaThu_66: 3194847717645231448
+      XaThu_67: -7497186401444093795
+      XaThu_68: 7577812927927081899
+      XaThu_69: -405456045804355046
+      XaThu_7: 907854506696883152
+      XaThu_70: 903840135379964769
+      XaThu_71: 105852698834844480
+      XaThu_72: 4062784397972393443
+      XaThu_73: -4304411513739325374
+      XaThu_74: -1142934963897615038
+      XaThu_75: -8662240883420525938
+      XaThu_76: -1316160147415657052
+      XaThu_77: 5961981415934037525
+      XaThu_78: 7686820800432921712
+      XaThu_79: 9124090102395067000
+      XaThu_8: 8913241455967666172
+      XaThu_80: -6938211506895749656
+      XaThu_81: 4446589270817417151
+      XaThu_82: -5163694450096420849
+      XaThu_83: 484241433253593088
+      XaThu_84: -4025641915696607753
+      XaThu_85: 9217936773938535972
+      XaThu_86: 5974452915806720527
+      XaThu_87: -2378021585888907674
+      XaThu_88: 5642748482822513499
+      XaThu_89: 7678025837617974903
+      XaThu_9: 4637563438047537039
+      XaThu_90: -5639367535342788599
+      XaThu_91: 4901573296943213445
+      XaThu_92: 6989818400026125181
+      XaThu_93: -4822011487950671139
+      XaThu_94: -2060261343325700035
+      XaThu_95: -2659442863995254121
+      XaThu_96: 8032573231914960083
+      XaThu_97: 6437769523987553092
+      XaThu_98: -5117588300825633501
+      XaThu_99: -799492675341099177
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

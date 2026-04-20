@@ -1,0 +1,783 @@
+
+KiemSi.png
+size: 1523,268
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+KiemSi1/L-arm
+  rotate: false
+  xy: 1431, 85
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+KiemSi1/L-foot
+  rotate: false
+  xy: 1428, 116
+  size: 22, 12
+  orig: 24, 13
+  offset: 1, 0
+  index: -1
+KiemSi2/L-foot
+  rotate: false
+  xy: 1428, 116
+  size: 22, 12
+  orig: 24, 13
+  offset: 1, 0
+  index: -1
+KiemSi3/L-foot
+  rotate: false
+  xy: 1428, 116
+  size: 22, 12
+  orig: 24, 13
+  offset: 1, 0
+  index: -1
+KiemSi1/L-forearm
+  rotate: true
+  xy: 1485, 104
+  size: 24, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+KiemSi2/L-forearm
+  rotate: true
+  xy: 1485, 104
+  size: 24, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+KiemSi3/L-forearm
+  rotate: true
+  xy: 1485, 104
+  size: 24, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+KiemSi1/L-hand
+  rotate: false
+  xy: 1409, 94
+  size: 18, 16
+  orig: 20, 18
+  offset: 1, 1
+  index: -1
+KiemSi2/L-hand
+  rotate: false
+  xy: 1409, 94
+  size: 18, 16
+  orig: 20, 18
+  offset: 1, 1
+  index: -1
+KiemSi3/L-hand
+  rotate: false
+  xy: 1409, 94
+  size: 18, 16
+  orig: 20, 18
+  offset: 1, 1
+  index: -1
+KiemSi4/L-hand
+  rotate: false
+  xy: 1409, 94
+  size: 18, 16
+  orig: 20, 18
+  offset: 1, 1
+  index: -1
+KiemSi5/L-hand
+  rotate: false
+  xy: 1409, 94
+  size: 18, 16
+  orig: 20, 18
+  offset: 1, 1
+  index: -1
+KiemSi1/L-leg
+  rotate: true
+  xy: 1483, 57
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+KiemSi2/L-leg
+  rotate: true
+  xy: 1483, 57
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+KiemSi3/L-leg
+  rotate: true
+  xy: 1483, 57
+  size: 21, 24
+  orig: 21, 24
+  offset: 0, 0
+  index: -1
+KiemSi1/L-thigh
+  rotate: true
+  xy: 1306, 204
+  size: 26, 22
+  orig: 28, 24
+  offset: 1, 1
+  index: -1
+KiemSi2/L-thigh
+  rotate: true
+  xy: 1306, 204
+  size: 26, 22
+  orig: 28, 24
+  offset: 1, 1
+  index: -1
+KiemSi3/L-thigh
+  rotate: true
+  xy: 1306, 204
+  size: 26, 22
+  orig: 28, 24
+  offset: 1, 1
+  index: -1
+KiemSi1/L-tocmai
+  rotate: true
+  xy: 1483, 162
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+KiemSi2/L-tocmai
+  rotate: true
+  xy: 1483, 162
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+KiemSi3/L-tocmai
+  rotate: true
+  xy: 1483, 162
+  size: 24, 31
+  orig: 24, 31
+  offset: 0, 0
+  index: -1
+KiemSi1/R-arm
+  rotate: false
+  xy: 503, 6
+  size: 23, 25
+  orig: 24, 25
+  offset: 0, 0
+  index: -1
+KiemSi1/R-tocmai
+  rotate: true
+  xy: 1428, 132
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+KiemSi2/R-tocmai
+  rotate: true
+  xy: 1428, 132
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+KiemSi3/R-tocmai
+  rotate: true
+  xy: 1428, 132
+  size: 43, 33
+  orig: 43, 33
+  offset: 0, 0
+  index: -1
+KiemSi1/body
+  rotate: false
+  xy: 1164, 97
+  size: 52, 52
+  orig: 52, 56
+  offset: 0, 2
+  index: -1
+KiemSi2/body
+  rotate: false
+  xy: 1164, 97
+  size: 52, 52
+  orig: 52, 56
+  offset: 0, 2
+  index: -1
+KiemSi1/duoitoc
+  rotate: true
+  xy: 1454, 103
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+KiemSi2/duoitoc
+  rotate: true
+  xy: 1454, 103
+  size: 25, 27
+  orig: 25, 27
+  offset: 0, 0
+  index: -1
+KiemSi1/head
+  rotate: false
+  xy: 1043, 16
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi2/head
+  rotate: false
+  xy: 1043, 16
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi3/head
+  rotate: false
+  xy: 1043, 16
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi1/head-close
+  rotate: false
+  xy: 1135, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi2/head-close
+  rotate: false
+  xy: 1135, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi3/head-close
+  rotate: false
+  xy: 1135, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi1/head-hurt
+  rotate: false
+  xy: 1207, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi2/head-hurt
+  rotate: false
+  xy: 1207, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi3/head-hurt
+  rotate: false
+  xy: 1207, 153
+  size: 68, 70
+  orig: 72, 72
+  offset: 1, 1
+  index: -1
+KiemSi1/khien
+  rotate: false
+  xy: 1221, 227
+  size: 20, 37
+  orig: 20, 38
+  offset: 0, 1
+  index: -1
+KiemSi2/khien
+  rotate: false
+  xy: 1221, 227
+  size: 20, 37
+  orig: 20, 38
+  offset: 0, 1
+  index: -1
+KiemSi3/khien
+  rotate: false
+  xy: 1221, 227
+  size: 20, 37
+  orig: 20, 38
+  offset: 0, 1
+  index: -1
+KiemSi1/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi2/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi3/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi4/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi5/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi6/shadow
+  rotate: false
+  xy: 1426, 227
+  size: 90, 37
+  orig: 96, 41
+  offset: 3, 2
+  index: -1
+KiemSi1/up
+  rotate: true
+  xy: 1425, 179
+  size: 44, 24
+  orig: 46, 26
+  offset: 1, 1
+  index: -1
+KiemSi2/up
+  rotate: true
+  xy: 1425, 179
+  size: 44, 24
+  orig: 46, 26
+  offset: 1, 1
+  index: -1
+KiemSi3/up
+  rotate: true
+  xy: 1425, 179
+  size: 44, 24
+  orig: 46, 26
+  offset: 1, 1
+  index: -1
+KiemSi4/up
+  rotate: true
+  xy: 1425, 179
+  size: 44, 24
+  orig: 46, 26
+  offset: 1, 1
+  index: -1
+KiemSi5/up
+  rotate: true
+  xy: 1425, 179
+  size: 44, 24
+  orig: 46, 26
+  offset: 1, 1
+  index: -1
+KiemSi1/weapon
+  rotate: false
+  xy: 1061, 151
+  size: 13, 113
+  orig: 14, 113
+  offset: 0, 0
+  index: -1
+KiemSi2/L-Shoulder1
+  rotate: false
+  xy: 402, 4
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+KiemSi2/L-arm
+  rotate: true
+  xy: 1485, 82
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+KiemSi3/L-arm
+  rotate: true
+  xy: 1485, 82
+  size: 18, 27
+  orig: 18, 27
+  offset: 0, 0
+  index: -1
+KiemSi2/L-shoulder
+  rotate: true
+  xy: 1453, 180
+  size: 43, 26
+  orig: 43, 27
+  offset: 0, 0
+  index: -1
+KiemSi2/R-arm
+  rotate: true
+  xy: 1269, 228
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+KiemSi2/weapon
+  rotate: false
+  xy: 1117, 152
+  size: 14, 112
+  orig: 14, 113
+  offset: 0, 0
+  index: -1
+KiemSi3/L-Shoulder1
+  rotate: false
+  xy: 436, 4
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+KiemSi3/L-shoulder
+  rotate: false
+  xy: 355, 4
+  size: 43, 27
+  orig: 43, 27
+  offset: 0, 0
+  index: -1
+KiemSi3/R-arm
+  rotate: false
+  xy: 1483, 190
+  size: 36, 33
+  orig: 36, 33
+  offset: 0, 0
+  index: -1
+KiemSi3/body
+  rotate: false
+  xy: 1220, 97
+  size: 52, 52
+  orig: 52, 56
+  offset: 0, 2
+  index: -1
+KiemSi3/duoitoc
+  rotate: true
+  xy: 1453, 74
+  size: 25, 26
+  orig: 25, 26
+  offset: 0, 0
+  index: -1
+KiemSi3/weapon
+  rotate: false
+  xy: 1036, 151
+  size: 21, 113
+  orig: 21, 113
+  offset: 0, 0
+  index: -1
+KiemSi4/L-Shoulder1
+  rotate: true
+  xy: 304, 4
+  size: 27, 47
+  orig: 27, 47
+  offset: 0, 0
+  index: -1
+KiemSi4/L-Up
+  rotate: false
+  xy: 1453, 47
+  size: 23, 23
+  orig: 23, 23
+  offset: 0, 0
+  index: -1
+KiemSi4/L-arm
+  rotate: true
+  xy: 1380, 93
+  size: 17, 25
+  orig: 18, 25
+  offset: 1, 0
+  index: -1
+KiemSi4/L-foot
+  rotate: false
+  xy: 1306, 153
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+KiemSi5/L-foot
+  rotate: false
+  xy: 1306, 153
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+KiemSi4/L-forearm
+  rotate: true
+  xy: 1426, 31
+  size: 21, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+KiemSi5/L-forearm
+  rotate: true
+  xy: 1426, 31
+  size: 21, 23
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+KiemSi4/L-leg
+  rotate: true
+  xy: 1426, 6
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+KiemSi5/L-leg
+  rotate: true
+  xy: 1426, 6
+  size: 21, 20
+  orig: 21, 20
+  offset: 0, 0
+  index: -1
+KiemSi4/L-shoulder
+  rotate: true
+  xy: 1380, 114
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+KiemSi4/L-thigh
+  rotate: true
+  xy: 1306, 174
+  size: 26, 22
+  orig: 28, 24
+  offset: 1, 1
+  index: -1
+KiemSi5/L-thigh
+  rotate: true
+  xy: 1306, 174
+  size: 26, 22
+  orig: 28, 24
+  offset: 1, 1
+  index: -1
+KiemSi4/R-Up
+  rotate: true
+  xy: 1279, 189
+  size: 35, 23
+  orig: 35, 23
+  offset: 0, 0
+  index: -1
+KiemSi4/R-arm
+  rotate: true
+  xy: 1135, 227
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+KiemSi4/body
+  rotate: false
+  xy: 1276, 97
+  size: 52, 52
+  orig: 52, 56
+  offset: 0, 2
+  index: -1
+KiemSi4/head
+  rotate: false
+  xy: 530, 4
+  size: 85, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1
+KiemSi4/head-close
+  rotate: false
+  xy: 619, 4
+  size: 85, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1
+KiemSi4/head-hurt
+  rotate: false
+  xy: 708, 4
+  size: 85, 80
+  orig: 89, 80
+  offset: 0, 0
+  index: -1
+KiemSi4/khien
+  rotate: false
+  xy: 1245, 227
+  size: 20, 37
+  orig: 20, 38
+  offset: 0, 1
+  index: -1
+KiemSi5/khien
+  rotate: false
+  xy: 1245, 227
+  size: 20, 37
+  orig: 20, 38
+  offset: 0, 1
+  index: -1
+KiemSi4/weapon
+  rotate: false
+  xy: 1078, 152
+  size: 35, 112
+  orig: 35, 112
+  offset: 0, 0
+  index: -1
+KiemSi5/ForeUp
+  rotate: true
+  xy: 1035, 90
+  size: 51, 25
+  orig: 51, 25
+  offset: 0, 0
+  index: -1
+KiemSi5/L-arm
+  rotate: false
+  xy: 1426, 56
+  size: 23, 25
+  orig: 24, 25
+  offset: 1, 0
+  index: -1
+KiemSi5/R-arm
+  rotate: true
+  xy: 1178, 227
+  size: 37, 39
+  orig: 37, 39
+  offset: 0, 0
+  index: -1
+KiemSi5/body
+  rotate: true
+  xy: 1332, 108
+  size: 52, 44
+  orig: 52, 48
+  offset: 0, 2
+  index: -1
+KiemSi5/duoitoc
+  rotate: true
+  xy: 1279, 154
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+KiemSi5/head
+  rotate: false
+  xy: 797, 4
+  size: 78, 80
+  orig: 79, 80
+  offset: 1, 0
+  index: -1
+KiemSi5/head-close
+  rotate: false
+  xy: 879, 4
+  size: 78, 80
+  orig: 79, 80
+  offset: 1, 0
+  index: -1
+KiemSi5/head-hurt
+  rotate: false
+  xy: 961, 6
+  size: 78, 80
+  orig: 79, 80
+  offset: 1, 0
+  index: -1
+KiemSi5/weapon
+  rotate: false
+  xy: 955, 142
+  size: 16, 122
+  orig: 16, 122
+  offset: 0, 0
+  index: -1
+KiemSi6/L-arm
+  rotate: true
+  xy: 1465, 132
+  size: 26, 38
+  orig: 26, 38
+  offset: 0, 0
+  index: -1
+KiemSi6/L-foot
+  rotate: true
+  xy: 1306, 234
+  size: 30, 22
+  orig: 30, 25
+  offset: 0, 3
+  index: -1
+KiemSi6/L-forearm
+  rotate: false
+  xy: 955, 90
+  size: 30, 48
+  orig: 31, 48
+  offset: 1, 0
+  index: -1
+KiemSi6/L-hand
+  rotate: true
+  xy: 470, 4
+  size: 27, 29
+  orig: 27, 30
+  offset: 0, 0
+  index: -1
+KiemSi6/L-leg
+  rotate: false
+  xy: 1064, 91
+  size: 40, 56
+  orig: 40, 56
+  offset: 0, 0
+  index: -1
+KiemSi6/L-thigh
+  rotate: false
+  xy: 1108, 93
+  size: 52, 55
+  orig: 52, 56
+  offset: 0, 1
+  index: -1
+KiemSi6/R-arm
+  rotate: false
+  xy: 989, 90
+  size: 42, 51
+  orig: 42, 51
+  offset: 0, 0
+  index: -1
+KiemSi6/R-coat
+  rotate: false
+  xy: 975, 145
+  size: 57, 119
+  orig: 60, 119
+  offset: 0, 0
+  index: -1
+KiemSi6/body
+  rotate: false
+  xy: 1332, 164
+  size: 89, 100
+  orig: 89, 100
+  offset: 0, 0
+  index: -1
+KiemSi6/hair
+  rotate: false
+  xy: 304, 35
+  size: 170, 229
+  orig: 170, 229
+  offset: 0, 0
+  index: -1
+KiemSi6/head
+  rotate: false
+  xy: 478, 88
+  size: 155, 176
+  orig: 157, 179
+  offset: 1, 1
+  index: -1
+KiemSi6/head-close
+  rotate: false
+  xy: 637, 88
+  size: 155, 176
+  orig: 157, 179
+  offset: 1, 1
+  index: -1
+KiemSi6/head-hurt
+  rotate: false
+  xy: 796, 88
+  size: 155, 176
+  orig: 157, 179
+  offset: 1, 1
+  index: -1
+KiemSi6/khien
+  rotate: false
+  xy: 478, 35
+  size: 48, 49
+  orig: 54, 49
+  offset: 1, 0
+  index: -1
+KiemSi6/weapon
+  rotate: true
+  xy: 1115, 4
+  size: 85, 307
+  orig: 86, 307
+  offset: 1, 0
+  index: -1
+fx1 (00)
+  rotate: true
+  xy: 4, 8
+  size: 256, 296
+  orig: 257, 296
+  offset: 0, 0
+  index: -1

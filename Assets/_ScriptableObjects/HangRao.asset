@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0784e1fc1d0f6cd48afb40c824b432a5, type: 3}
+  m_Name: HangRao
+  m_EditorClassIdentifier: Assembly-CSharp::StructuresSO
+  id: 3
+  displayName: HangRao
+  price: 500
+  avatar: {fileID: 1693208444009864854, guid: 46cfc81180f7a334089e15cec0497b3b, type: 3}
+  prefab: {fileID: 1218662094428466155, guid: 6efdbd0dee2b9c74e85e95eea6b7127a, type: 3}
+  gridSize: {x: 1, y: 4}

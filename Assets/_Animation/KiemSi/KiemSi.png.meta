@@ -1,0 +1,1963 @@
+fileFormatVersion: 2
+guid: 8271a2d25d152b44b9b535b04b9e7406
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5256551323922396995
+    second: KiemSi_0
+  - first:
+      213: 3881629280959402075
+    second: KiemSi_1
+  - first:
+      213: -1646624735732814456
+    second: KiemSi_2
+  - first:
+      213: 4521403230123177094
+    second: KiemSi_3
+  - first:
+      213: 4489640357089389029
+    second: KiemSi_4
+  - first:
+      213: -8432712052825829196
+    second: KiemSi_5
+  - first:
+      213: -6358842733211792486
+    second: KiemSi_6
+  - first:
+      213: 8254406089458370423
+    second: KiemSi_7
+  - first:
+      213: 5815589072933240361
+    second: KiemSi_8
+  - first:
+      213: 3666721690075176240
+    second: KiemSi_9
+  - first:
+      213: -7401182117162848431
+    second: KiemSi_10
+  - first:
+      213: 6979454888363997258
+    second: KiemSi_11
+  - first:
+      213: 701355611105976900
+    second: KiemSi_12
+  - first:
+      213: -1035084051616695748
+    second: KiemSi_13
+  - first:
+      213: -7172382792898227324
+    second: KiemSi_14
+  - first:
+      213: -7282017766476422917
+    second: KiemSi_15
+  - first:
+      213: -2430679906120742831
+    second: KiemSi_16
+  - first:
+      213: -1235950631582072294
+    second: KiemSi_17
+  - first:
+      213: -3557129475936336243
+    second: KiemSi_18
+  - first:
+      213: 1708630074829828745
+    second: KiemSi_19
+  - first:
+      213: -8523255399716678286
+    second: KiemSi_20
+  - first:
+      213: -3378738543799975474
+    second: KiemSi_21
+  - first:
+      213: -107889412467127714
+    second: KiemSi_22
+  - first:
+      213: 6038200276449778943
+    second: KiemSi_23
+  - first:
+      213: 6426949498501955920
+    second: KiemSi_24
+  - first:
+      213: 7281837330258444163
+    second: KiemSi_25
+  - first:
+      213: -3023086849804896497
+    second: KiemSi_26
+  - first:
+      213: 813460706167248410
+    second: KiemSi_27
+  - first:
+      213: -2883900946213811612
+    second: KiemSi_28
+  - first:
+      213: -362313425633801404
+    second: KiemSi_29
+  - first:
+      213: 4458477450997371023
+    second: KiemSi_30
+  - first:
+      213: -6178815352651574225
+    second: KiemSi_31
+  - first:
+      213: 7728027566328181861
+    second: KiemSi_32
+  - first:
+      213: -1945657818830897181
+    second: KiemSi_33
+  - first:
+      213: 6127386102106123854
+    second: KiemSi_34
+  - first:
+      213: -1342904047723092961
+    second: KiemSi_35
+  - first:
+      213: 1307171973885717740
+    second: KiemSi_36
+  - first:
+      213: 5158692710443435647
+    second: KiemSi_37
+  - first:
+      213: 5468125040399758446
+    second: KiemSi_38
+  - first:
+      213: 5556809123389754060
+    second: KiemSi_39
+  - first:
+      213: 101568361211616611
+    second: KiemSi_40
+  - first:
+      213: -123807547970190045
+    second: KiemSi_41
+  - first:
+      213: -4324100059487487817
+    second: KiemSi_42
+  - first:
+      213: 5179141522413653980
+    second: KiemSi_43
+  - first:
+      213: -6425187257153499963
+    second: KiemSi_44
+  - first:
+      213: 2544444738203684746
+    second: KiemSi_45
+  - first:
+      213: 2868906647221219216
+    second: KiemSi_46
+  - first:
+      213: -2926703603932429762
+    second: KiemSi_47
+  - first:
+      213: 3339380918146587558
+    second: KiemSi_48
+  - first:
+      213: 8681081853372397310
+    second: KiemSi_49
+  - first:
+      213: -3384811525691989427
+    second: KiemSi_50
+  - first:
+      213: -3992061175880291723
+    second: KiemSi_51
+  - first:
+      213: -893152458295481216
+    second: KiemSi_52
+  - first:
+      213: -4256513958041376552
+    second: KiemSi_53
+  - first:
+      213: -2829959313909369521
+    second: KiemSi_54
+  - first:
+      213: -6996052593517932826
+    second: KiemSi_55
+  - first:
+      213: 4641751739310845825
+    second: KiemSi_56
+  - first:
+      213: 4477351830459818620
+    second: KiemSi_57
+  - first:
+      213: 1438028917944585288
+    second: KiemSi_58
+  - first:
+      213: -9091294565079834415
+    second: KiemSi_59
+  - first:
+      213: -7291877157656239882
+    second: KiemSi_60
+  - first:
+      213: -7373407089043736745
+    second: KiemSi_61
+  - first:
+      213: -1756609480107988803
+    second: KiemSi_62
+  - first:
+      213: -2899428203234447539
+    second: KiemSi_63
+  - first:
+      213: 7359603673683020018
+    second: KiemSi_64
+  - first:
+      213: -7959165520670074191
+    second: KiemSi_65
+  - first:
+      213: 1314626238298521467
+    second: KiemSi_66
+  - first:
+      213: -5808929693103873840
+    second: KiemSi_67
+  - first:
+      213: 6776974963896707827
+    second: KiemSi_68
+  - first:
+      213: 590548044734671896
+    second: KiemSi_69
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KiemSi_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 298
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db80ff9db6afc07b0800000000000000
+      internalID: -5256551323922396995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_1
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 236
+        width: 49
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b501759e3415ed530800000000000000
+      internalID: 3881629280959402075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_2
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 236
+        width: 45
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d264ce6830629e0800000000000000
+      internalID: -1646624735732814456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_3
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 236
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684bbc948404fbe30800000000000000
+      internalID: 4521403230123177094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_4
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 236
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9229d1e186e4e30800000000000000
+      internalID: 4489640357089389029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_5
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 236
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0592ef01df8fa80800000000000000
+      internalID: -8432712052825829196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_6
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 236
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b4658893ad0c7a0800000000000000
+      internalID: -6358842733211792486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_7
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 183
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777ccf9ca9a8d8270800000000000000
+      internalID: 8254406089458370423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_8
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 183
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92e34d3137f15b050800000000000000
+      internalID: 5815589072933240361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_9
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 183
+        width: 87
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d962333ffc2e230800000000000000
+      internalID: 3666721690075176240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 183
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15fe88cd318b94990800000000000000
+      internalID: -7401182117162848431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_11
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 183
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48bcc20e310cd060800000000000000
+      internalID: 6979454888363997258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_12
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 181
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442e23d5637bbb900800000000000000
+      internalID: 701355611105976900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_13
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 181
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3af6b60a84a2a1f0800000000000000
+      internalID: -1035084051616695748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_14
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 178
+        width: 309
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4835d2cc9d3967c90800000000000000
+      internalID: -7172382792898227324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_15
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 240
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf0e6155c6311fa90800000000000000
+      internalID: -7282017766476422917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_16
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3
+        width: 172
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1584ef0f08d744ed0800000000000000
+      internalID: -2430679906120742831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_17
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 183
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1281ace27509dee0800000000000000
+      internalID: -1235950631582072294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_18
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 215
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d864ebe869982aec0800000000000000
+      internalID: -3557129475936336243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_19
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 197
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982f7c6100646b710800000000000000
+      internalID: 1708630074829828745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_20
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 186
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27515f14f5057b980800000000000000
+      internalID: -8523255399716678286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_21
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 168
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1c1eb123f4c11d0800000000000000
+      internalID: -3378738543799975474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_22
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 189
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5a0fd6a623b08ef0800000000000000
+      internalID: -107889412467127714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_23
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 3
+        width: 157
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc5470e82ffbc350800000000000000
+      internalID: 6038200276449778943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_24
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 3
+        width: 157
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518597748c113950800000000000000
+      internalID: 6426949498501955920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_25
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 3
+        width: 157
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fbb3698784e0560800000000000000
+      internalID: 7281837330258444163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_26
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 129
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f077930f686db06d0800000000000000
+      internalID: -3023086849804896497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_27
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 126
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1656ddc33ef94b00800000000000000
+      internalID: 813460706167248410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_28
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 126
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a43857e535af7d0800000000000000
+      internalID: -2883900946213811612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_29
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 120
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b0eb7ebddc8faf0800000000000000
+      internalID: -362313425633801404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_30
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 119
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8099c1ae91bfdd30800000000000000
+      internalID: 4458477450997371023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_31
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 118
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f24197c6c20704aa0800000000000000
+      internalID: -6178815352651574225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_32
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 118
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564fa6170287f3b60800000000000000
+      internalID: 7728027566328181861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_33
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 118
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef7f16b582aff4e0800000000000000
+      internalID: -1945657818830897181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_34
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 157
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e63b11239d80550800000000000000
+      internalID: 6127386102106123854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_35
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 157
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14e70432eb0d5de0800000000000000
+      internalID: -1342904047723092961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_36
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 155
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cecedcb0cf1042210800000000000000
+      internalID: 1307171973885717740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_37
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 167
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76c06f20bb579740800000000000000
+      internalID: 5158692710443435647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_38
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 107
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64327cb0cea2eb40800000000000000
+      internalID: 5468125040399758446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_39
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 107
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccacb4cd470cd1d40800000000000000
+      internalID: 5556809123389754060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_40
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 139
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ddf6ae2e7d86100800000000000000
+      internalID: 101568361211616611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_41
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 140
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32589bae0b5284ef0800000000000000
+      internalID: -123807547970190045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_42
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 139
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8b00de7e5bdf3c0800000000000000
+      internalID: -4324100059487487817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_43
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 3
+        width: 18
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf01fc36c100e740800000000000000
+      internalID: 5179141522413653980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_44
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 4
+        width: 58
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cccff15b3625d6a0800000000000000
+      internalID: -6425187257153499963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_45
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 3
+        width: 23
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f0e33220faf4320800000000000000
+      internalID: 2544444738203684746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_46
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 3
+        width: 15
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09fa061456760d720800000000000000
+      internalID: 2868906647221219216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_47
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 3
+        width: 37
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3280cc14924267d0800000000000000
+      internalID: -2926703603932429762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_48
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 3
+        width: 16
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab58d3904dd75e20800000000000000
+      internalID: 3339380918146587558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_49
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 44
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6f95883f5697870800000000000000
+      internalID: 8681081853372397310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_50
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 44
+        width: 70
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d422b73d9dbb601d0800000000000000
+      internalID: -3384811525691989427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_51
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 82
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ae60ae2895998c0800000000000000
+      internalID: -3992061175880291723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_52
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 97
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ce7014292ea93f0800000000000000
+      internalID: -893152458295481216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_53
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 93
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8a37d6b13dde4c0800000000000000
+      internalID: -4256513958041376552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_54
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 109
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f45bf9d6ff6f9b8d0800000000000000
+      internalID: -2829959313909369521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_55
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 67
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eec96d9b3709ee90800000000000000
+      internalID: -6996052593517932826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_56
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 4
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18fac252d90da6040800000000000000
+      internalID: 4641751739310845825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_57
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 44
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72a00d84cfb22e30800000000000000
+      internalID: 4477351830459818620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_58
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 44
+        width: 28
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c83de8ea7e4f310800000000000000
+      internalID: 1438028917944585288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_59
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 82
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d02af3c2cb35d180800000000000000
+      internalID: -9091294565079834415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_60
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 43
+        width: 25
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f06d10fb5c0eca90800000000000000
+      internalID: -7291877157656239882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_61
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 37
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 757733981556ca990800000000000000
+      internalID: -7373407089043736745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_62
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 44
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db864191cf44f97e0800000000000000
+      internalID: -1756609480107988803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_63
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 3
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f2676396923c7d0800000000000000
+      internalID: -2899428203234447539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_64
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 3
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f849816c80922660800000000000000
+      internalID: 7359603673683020018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_65
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 3
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ba5cefd02d5b8190800000000000000
+      internalID: -7959165520670074191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_66
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 3
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ff03a399d7e3210800000000000000
+      internalID: 1314626238298521467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_67
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 3
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0235d9839826fa0800000000000000
+      internalID: -5808929693103873840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_68
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 3
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa67ced2d6ac0e50800000000000000
+      internalID: 6776974963896707827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KiemSi_69
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 3
+        width: 92
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c263d515c023800800000000000000
+      internalID: 590548044734671896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      KiemSi_0: -5256551323922396995
+      KiemSi_1: 3881629280959402075
+      KiemSi_10: -7401182117162848431
+      KiemSi_11: 6979454888363997258
+      KiemSi_12: 701355611105976900
+      KiemSi_13: -1035084051616695748
+      KiemSi_14: -7172382792898227324
+      KiemSi_15: -7282017766476422917
+      KiemSi_16: -2430679906120742831
+      KiemSi_17: -1235950631582072294
+      KiemSi_18: -3557129475936336243
+      KiemSi_19: 1708630074829828745
+      KiemSi_2: -1646624735732814456
+      KiemSi_20: -8523255399716678286
+      KiemSi_21: -3378738543799975474
+      KiemSi_22: -107889412467127714
+      KiemSi_23: 6038200276449778943
+      KiemSi_24: 6426949498501955920
+      KiemSi_25: 7281837330258444163
+      KiemSi_26: -3023086849804896497
+      KiemSi_27: 813460706167248410
+      KiemSi_28: -2883900946213811612
+      KiemSi_29: -362313425633801404
+      KiemSi_3: 4521403230123177094
+      KiemSi_30: 4458477450997371023
+      KiemSi_31: -6178815352651574225
+      KiemSi_32: 7728027566328181861
+      KiemSi_33: -1945657818830897181
+      KiemSi_34: 6127386102106123854
+      KiemSi_35: -1342904047723092961
+      KiemSi_36: 1307171973885717740
+      KiemSi_37: 5158692710443435647
+      KiemSi_38: 5468125040399758446
+      KiemSi_39: 5556809123389754060
+      KiemSi_4: 4489640357089389029
+      KiemSi_40: 101568361211616611
+      KiemSi_41: -123807547970190045
+      KiemSi_42: -4324100059487487817
+      KiemSi_43: 5179141522413653980
+      KiemSi_44: -6425187257153499963
+      KiemSi_45: 2544444738203684746
+      KiemSi_46: 2868906647221219216
+      KiemSi_47: -2926703603932429762
+      KiemSi_48: 3339380918146587558
+      KiemSi_49: 8681081853372397310
+      KiemSi_5: -8432712052825829196
+      KiemSi_50: -3384811525691989427
+      KiemSi_51: -3992061175880291723
+      KiemSi_52: -893152458295481216
+      KiemSi_53: -4256513958041376552
+      KiemSi_54: -2829959313909369521
+      KiemSi_55: -6996052593517932826
+      KiemSi_56: 4641751739310845825
+      KiemSi_57: 4477351830459818620
+      KiemSi_58: 1438028917944585288
+      KiemSi_59: -9091294565079834415
+      KiemSi_6: -6358842733211792486
+      KiemSi_60: -7291877157656239882
+      KiemSi_61: -7373407089043736745
+      KiemSi_62: -1756609480107988803
+      KiemSi_63: -2899428203234447539
+      KiemSi_64: 7359603673683020018
+      KiemSi_65: -7959165520670074191
+      KiemSi_66: 1314626238298521467
+      KiemSi_67: -5808929693103873840
+      KiemSi_68: 6776974963896707827
+      KiemSi_69: 590548044734671896
+      KiemSi_7: 8254406089458370423
+      KiemSi_8: 5815589072933240361
+      KiemSi_9: 3666721690075176240
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5317 @@
+fileFormatVersion: 2
+guid: 3806fb08b7387664a916bf527482725a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2813083980563112571
+    second: animTower_0
+  - first:
+      213: -2431312461833204074
+    second: animTower_1
+  - first:
+      213: -28371398711327994
+    second: animTower_2
+  - first:
+      213: 6633404643222845053
+    second: animTower_3
+  - first:
+      213: 8750214424818957877
+    second: animTower_4
+  - first:
+      213: -7089359561377770887
+    second: animTower_5
+  - first:
+      213: 3739936878448466372
+    second: animTower_6
+  - first:
+      213: -491863603514716019
+    second: animTower_7
+  - first:
+      213: 531014213355573275
+    second: animTower_8
+  - first:
+      213: 8279820278638102159
+    second: animTower_9
+  - first:
+      213: 8571830269235419727
+    second: animTower_10
+  - first:
+      213: -2422309206855729932
+    second: animTower_11
+  - first:
+      213: -7563780742138434217
+    second: animTower_12
+  - first:
+      213: 5107505113670278133
+    second: animTower_13
+  - first:
+      213: 2250541238299482378
+    second: animTower_14
+  - first:
+      213: -2235525663790206545
+    second: animTower_15
+  - first:
+      213: -743907291646908680
+    second: animTower_16
+  - first:
+      213: -4198544457101732686
+    second: animTower_17
+  - first:
+      213: 3158021035280033509
+    second: animTower_18
+  - first:
+      213: 2700235702125954253
+    second: animTower_19
+  - first:
+      213: 6022611849834605803
+    second: animTower_20
+  - first:
+      213: 7311349740955807841
+    second: animTower_21
+  - first:
+      213: -4390656639382139487
+    second: animTower_22
+  - first:
+      213: -7951360355238446807
+    second: animTower_23
+  - first:
+      213: 7669369069367793054
+    second: animTower_24
+  - first:
+      213: -3326032431479671570
+    second: animTower_25
+  - first:
+      213: 5597304966151121040
+    second: animTower_26
+  - first:
+      213: -1964148211911508249
+    second: animTower_27
+  - first:
+      213: -4532340420059628797
+    second: animTower_28
+  - first:
+      213: -750119330121249263
+    second: animTower_29
+  - first:
+      213: 5511615603171481732
+    second: animTower_30
+  - first:
+      213: -4401911147342041755
+    second: animTower_31
+  - first:
+      213: 70551516327274282
+    second: animTower_32
+  - first:
+      213: 5105645357624679348
+    second: animTower_33
+  - first:
+      213: -9087266426879580090
+    second: animTower_34
+  - first:
+      213: 2020317712040238738
+    second: animTower_35
+  - first:
+      213: -8259787578169561728
+    second: animTower_36
+  - first:
+      213: 4577938617194593453
+    second: animTower_37
+  - first:
+      213: -1306047372677965521
+    second: animTower_38
+  - first:
+      213: -6634044609293648733
+    second: animTower_39
+  - first:
+      213: 5361889081103840647
+    second: animTower_40
+  - first:
+      213: -1736679480316312828
+    second: animTower_41
+  - first:
+      213: -6482549803553104828
+    second: animTower_42
+  - first:
+      213: -2341884499674656255
+    second: animTower_43
+  - first:
+      213: -939581959486751265
+    second: animTower_44
+  - first:
+      213: -1678564835656099047
+    second: animTower_45
+  - first:
+      213: 2336350760845224733
+    second: animTower_46
+  - first:
+      213: 2703703318539042767
+    second: animTower_47
+  - first:
+      213: -3477486198317823140
+    second: animTower_48
+  - first:
+      213: -1944139476388297929
+    second: animTower_49
+  - first:
+      213: 8832852893140223469
+    second: animTower_50
+  - first:
+      213: 779665354146940176
+    second: animTower_51
+  - first:
+      213: 7702546841425910206
+    second: animTower_52
+  - first:
+      213: 1430784404722790862
+    second: animTower_53
+  - first:
+      213: -1195965817663227637
+    second: animTower_54
+  - first:
+      213: -1293707967233255022
+    second: animTower_55
+  - first:
+      213: 1386544430794155617
+    second: animTower_56
+  - first:
+      213: -3441207205549049813
+    second: animTower_57
+  - first:
+      213: 5756479526557792223
+    second: animTower_58
+  - first:
+      213: -8742904617882076127
+    second: animTower_59
+  - first:
+      213: -4726614582271635486
+    second: animTower_60
+  - first:
+      213: 4026949038237340005
+    second: animTower_61
+  - first:
+      213: -3986365413030248757
+    second: animTower_62
+  - first:
+      213: 161926971735663254
+    second: animTower_63
+  - first:
+      213: 1477013651593075468
+    second: animTower_64
+  - first:
+      213: -7122073940997849771
+    second: animTower_65
+  - first:
+      213: -3813919300882318220
+    second: animTower_66
+  - first:
+      213: -7623753703171222268
+    second: animTower_67
+  - first:
+      213: 3861383853822701427
+    second: animTower_68
+  - first:
+      213: -3992085137050796204
+    second: animTower_69
+  - first:
+      213: -4192575056896670542
+    second: animTower_70
+  - first:
+      213: -3368258714515152819
+    second: animTower_71
+  - first:
+      213: -8062869021148827170
+    second: animTower_72
+  - first:
+      213: -3430746901787174869
+    second: animTower_73
+  - first:
+      213: 5174574204707521414
+    second: animTower_74
+  - first:
+      213: 3557875228775163851
+    second: animTower_75
+  - first:
+      213: -1785189046735030207
+    second: animTower_76
+  - first:
+      213: 6420947252407075305
+    second: animTower_77
+  - first:
+      213: 1214018741656265572
+    second: animTower_78
+  - first:
+      213: -3734662664190062319
+    second: animTower_79
+  - first:
+      213: -1888643771441264238
+    second: animTower_80
+  - first:
+      213: 4663969323723574389
+    second: animTower_81
+  - first:
+      213: -2306649722303003499
+    second: animTower_82
+  - first:
+      213: 7133040400174402086
+    second: animTower_83
+  - first:
+      213: -7441298839085521721
+    second: animTower_84
+  - first:
+      213: -8050845860794198058
+    second: animTower_85
+  - first:
+      213: 2227556843436822882
+    second: animTower_86
+  - first:
+      213: -1568024717966855785
+    second: animTower_87
+  - first:
+      213: -4967988760758218158
+    second: animTower_88
+  - first:
+      213: 5415461117115236119
+    second: animTower_89
+  - first:
+      213: -8249782504560740662
+    second: animTower_90
+  - first:
+      213: -8457550055751538128
+    second: animTower_91
+  - first:
+      213: 4771248937092854822
+    second: animTower_92
+  - first:
+      213: -5061961132406705387
+    second: animTower_93
+  - first:
+      213: -6377730081899626869
+    second: animTower_94
+  - first:
+      213: 6875434660087378154
+    second: animTower_95
+  - first:
+      213: -1587799700526835515
+    second: animTower_96
+  - first:
+      213: -994383503363938316
+    second: animTower_97
+  - first:
+      213: 1236466678867206737
+    second: animTower_98
+  - first:
+      213: 4988250832187866556
+    second: animTower_99
+  - first:
+      213: -4908353578096612601
+    second: animTower_100
+  - first:
+      213: 8837086073552399826
+    second: animTower_101
+  - first:
+      213: 7020097070719524651
+    second: animTower_102
+  - first:
+      213: 1143247103321259987
+    second: animTower_103
+  - first:
+      213: 1652752727657665344
+    second: animTower_104
+  - first:
+      213: -7052181698509640525
+    second: animTower_105
+  - first:
+      213: -5627198494940683645
+    second: animTower_106
+  - first:
+      213: -6313967552763282152
+    second: animTower_107
+  - first:
+      213: 8527231978040677130
+    second: animTower_108
+  - first:
+      213: 3602190348474979353
+    second: animTower_109
+  - first:
+      213: -8972597372360296171
+    second: animTower_110
+  - first:
+      213: 2417109712891962357
+    second: animTower_111
+  - first:
+      213: -6690778966736559493
+    second: animTower_112
+  - first:
+      213: 1446802194121419689
+    second: animTower_113
+  - first:
+      213: 8138257336937429682
+    second: animTower_114
+  - first:
+      213: -6506711425139933269
+    second: animTower_115
+  - first:
+      213: -6231146876620330278
+    second: animTower_116
+  - first:
+      213: -6266685028740450243
+    second: animTower_117
+  - first:
+      213: -9163924835842771816
+    second: animTower_118
+  - first:
+      213: 6858892326210427065
+    second: animTower_119
+  - first:
+      213: 486628341305607121
+    second: animTower_120
+  - first:
+      213: -1471946630118016072
+    second: animTower_121
+  - first:
+      213: -7337416397690117863
+    second: animTower_122
+  - first:
+      213: -5085614132595388658
+    second: animTower_123
+  - first:
+      213: 3216843836433231388
+    second: animTower_124
+  - first:
+      213: 2434375460701920946
+    second: animTower_125
+  - first:
+      213: -6055168145188695572
+    second: animTower_126
+  - first:
+      213: -3351799927030923938
+    second: animTower_127
+  - first:
+      213: -797167310739510380
+    second: animTower_128
+  - first:
+      213: 5052843783186723277
+    second: animTower_129
+  - first:
+      213: 6649073917913620266
+    second: animTower_130
+  - first:
+      213: 163756203758117347
+    second: animTower_131
+  - first:
+      213: -3861324808142265620
+    second: animTower_132
+  - first:
+      213: 4013618824491966330
+    second: animTower_133
+  - first:
+      213: 2587591608962355166
+    second: animTower_134
+  - first:
+      213: 2862058199022124043
+    second: animTower_135
+  - first:
+      213: -7799607026194675821
+    second: animTower_136
+  - first:
+      213: -8892299278870887511
+    second: animTower_137
+  - first:
+      213: 6021865326300440653
+    second: animTower_138
+  - first:
+      213: 1972998846382951287
+    second: animTower_139
+  - first:
+      213: -6787949405591026957
+    second: animTower_140
+  - first:
+      213: -2759253405756213509
+    second: animTower_141
+  - first:
+      213: 7396451450031461987
+    second: animTower_142
+  - first:
+      213: 734443329518979137
+    second: animTower_143
+  - first:
+      213: -3862566792259577522
+    second: animTower_144
+  - first:
+      213: 5163210861339852786
+    second: animTower_145
+  - first:
+      213: -1177131897039949950
+    second: animTower_146
+  - first:
+      213: 3680725005664838312
+    second: animTower_147
+  - first:
+      213: 6706432968202481760
+    second: animTower_148
+  - first:
+      213: 3450120836467666320
+    second: animTower_149
+  - first:
+      213: -370550585584447290
+    second: animTower_150
+  - first:
+      213: -2151921982490145635
+    second: animTower_151
+  - first:
+      213: 8552618952090268106
+    second: animTower_152
+  - first:
+      213: -8552441323596684373
+    second: animTower_153
+  - first:
+      213: 7876392588016652794
+    second: animTower_154
+  - first:
+      213: 7914735112908552288
+    second: animTower_155
+  - first:
+      213: -5517148348815945129
+    second: animTower_156
+  - first:
+      213: -4319942286188702066
+    second: animTower_157
+  - first:
+      213: -277682860152467932
+    second: animTower_158
+  - first:
+      213: -7244498776896555195
+    second: animTower_159
+  - first:
+      213: 5641682475098608067
+    second: animTower_160
+  - first:
+      213: 4397064830046324734
+    second: animTower_161
+  - first:
+      213: -2072705964817885882
+    second: animTower_162
+  - first:
+      213: -5052728030157839561
+    second: animTower_163
+  - first:
+      213: -364958662153791381
+    second: animTower_164
+  - first:
+      213: 6780373644138811192
+    second: animTower_165
+  - first:
+      213: -8564637245621599952
+    second: animTower_166
+  - first:
+      213: 823092159704792062
+    second: animTower_167
+  - first:
+      213: -2299635284485832488
+    second: animTower_168
+  - first:
+      213: -6806307267989215031
+    second: animTower_169
+  - first:
+      213: 1210488744424132055
+    second: animTower_170
+  - first:
+      213: -9003182257214233353
+    second: animTower_171
+  - first:
+      213: 8292530207091270679
+    second: animTower_172
+  - first:
+      213: -4025364651226087856
+    second: animTower_173
+  - first:
+      213: -8565299938076497434
+    second: animTower_174
+  - first:
+      213: 2725308306645267255
+    second: animTower_175
+  - first:
+      213: 404139174022428676
+    second: animTower_176
+  - first:
+      213: 7436301299559575372
+    second: animTower_177
+  - first:
+      213: -6557192235305374661
+    second: animTower_178
+  - first:
+      213: 6612785116921546691
+    second: animTower_179
+  - first:
+      213: 6319124986048160858
+    second: animTower_180
+  - first:
+      213: -8762072685104002366
+    second: animTower_181
+  - first:
+      213: 5121456166811316441
+    second: animTower_182
+  - first:
+      213: 1412430805934026618
+    second: animTower_183
+  - first:
+      213: -4211856926717027803
+    second: animTower_184
+  - first:
+      213: -9081723957676406004
+    second: animTower_185
+  - first:
+      213: 7991059156194196147
+    second: animTower_186
+  - first:
+      213: -8481618238155563115
+    second: animTower_187
+  - first:
+      213: -5388459441631228194
+    second: animTower_188
+  - first:
+      213: 2114010822872057335
+    second: animTower_189
+  - first:
+      213: 8068677412912139030
+    second: animTower_190
+  - first:
+      213: -933590957834713912
+    second: animTower_191
+  - first:
+      213: -1902641988177986726
+    second: animTower_192
+  - first:
+      213: -2459554427378530058
+    second: animTower_193
+  - first:
+      213: -1083042934492019511
+    second: animTower_194
+  - first:
+      213: -4156459513550794780
+    second: animTower_195
+  - first:
+      213: -8094466712593746240
+    second: animTower_196
+  - first:
+      213: -2922404023890745251
+    second: animTower_197
+  - first:
+      213: -6481928755458644966
+    second: animTower_198
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: animTower_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1435
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b726ec8d9f41a0720800000000000000
+      internalID: 2813083980563112571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e8376923e324ed0800000000000000
+      internalID: -2431312461833204074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1439
+        width: 50
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603c70afc543b9ff0800000000000000
+      internalID: -28371398711327994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_3
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1397
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7679b2b0669e0c50800000000000000
+      internalID: 6633404643222845053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1354
+        width: 344
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e35d3a8a10f6970800000000000000
+      internalID: 8750214424818957877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1451
+        width: 33
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9721f0b3a098d9d90800000000000000
+      internalID: -7089359561377770887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_6
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1426
+        width: 110
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9dd42a6cce6e330800000000000000
+      internalID: 3739936878448466372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_7
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 1393
+        width: 123
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d80df8a98ac8c29f0800000000000000
+      internalID: -491863603514716019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_8
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 1393
+        width: 109
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b101eb51d9a8e5700800000000000000
+      internalID: 531014213355573275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_9
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1389
+        width: 100
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86cc40dca4d7e270800000000000000
+      internalID: 8279820278638102159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_10
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 1394
+        width: 51
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ad7b0e63245f670800000000000000
+      internalID: 8571830269235419727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_11
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 1435
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcb43d3c9a326ed0800000000000000
+      internalID: -2422309206855729932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_12
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 1454
+        width: 71
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75de5e95d7d080790800000000000000
+      internalID: -7563780742138434217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1418
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fbdec417d081e640800000000000000
+      internalID: 5107505113670278133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_14
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1430
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09553515578b3f10800000000000000
+      internalID: 2250541238299482378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1425
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1f38bc041d9f0e0800000000000000
+      internalID: -2235525663790206545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_16
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1291
+        width: 198
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f62097724c1da5f0800000000000000
+      internalID: -743907291646908680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_17
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 1294
+        width: 91
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b414c4af06cbb5c0800000000000000
+      internalID: -4198544457101732686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_18
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1320
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e311566b83db20800000000000000
+      internalID: 3158021035280033509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_19
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1389
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc48b0b801a297520800000000000000
+      internalID: 2700235702125954253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_20
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 1386
+        width: 115
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec2379719d949350800000000000000
+      internalID: 6022611849834605803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_21
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 1431
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160b05a2ad1277560800000000000000
+      internalID: 7311349740955807841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_22
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1396
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1adcae69c014113c0800000000000000
+      internalID: -4390656639382139487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_23
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1409
+        width: 80
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92973e092e717a190800000000000000
+      internalID: -7951360355238446807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_24
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 1409
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e951907d8821f6a60800000000000000
+      internalID: 7669369069367793054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_25
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1409
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4b93a202f87d1d0800000000000000
+      internalID: -3326032431479671570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_26
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1397
+        width: 55
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098a7fef53f9dad40800000000000000
+      internalID: 5597304966151121040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_27
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1333
+        width: 165
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eebbc69b91fdb4e0800000000000000
+      internalID: -1964148211911508249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_28
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1337
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30b733db664e911c0800000000000000
+      internalID: -4532340420059628797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_29
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1232
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e08fc817a0795f0800000000000000
+      internalID: -750119330121249263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_30
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 1333
+        width: 75
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488598570313d7c40800000000000000
+      internalID: 5511615603171481732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_31
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1379
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d68d1422549e2c0800000000000000
+      internalID: -4401911147342041755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_32
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1306
+        width: 114
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a276d05fa36aaf000800000000000000
+      internalID: 70551516327274282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_33
+      rect:
+        serializedVersion: 2
+        x: 1332
+        y: 1307
+        width: 64
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb5752e665ead640800000000000000
+      internalID: 5105645357624679348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_34
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1307
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6486286c45b83e180800000000000000
+      internalID: -9087266426879580090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_35
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 1324
+        width: 69
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e9697414c990c10800000000000000
+      internalID: 2020317712040238738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_36
+      rect:
+        serializedVersion: 2
+        x: 1535
+        y: 1293
+        width: 108
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08de40bb5f65f5d80800000000000000
+      internalID: -8259787578169561728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_37
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1293
+        width: 42
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac3d69daea188f30800000000000000
+      internalID: 4577938617194593453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_38
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 1337
+        width: 94
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2992b395dcffdde0800000000000000
+      internalID: -1306047372677965521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_39
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1337
+        width: 99
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acf4f693932fe3a0800000000000000
+      internalID: -6634044609293648733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_40
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 1314
+        width: 39
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7857d34f5b1496a40800000000000000
+      internalID: 5361889081103840647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_41
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 1355
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4034907c63316e7e0800000000000000
+      internalID: -1736679480316312828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_42
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1060
+        width: 191
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c5078bc4b5906a0800000000000000
+      internalID: -6482549803553104828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_43
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1332
+        width: 67
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10216e39474ff7fd0800000000000000
+      internalID: -2341884499674656255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_44
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1331
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdd3d6b9f2fe5f2f0800000000000000
+      internalID: -939581959486751265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_45
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 1320
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b9146ec2a84b8e0800000000000000
+      internalID: -1678564835656099047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_46
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 1190
+        width: 202
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ba4e273a26c6020800000000000000
+      internalID: 2336350760845224733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_47
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1291
+        width: 133
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf7097e7db758520800000000000000
+      internalID: 2703703318539042767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_48
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 1135
+        width: 107
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b41f52abc7dbfc0800000000000000
+      internalID: -3477486198317823140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_49
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1244
+        width: 167
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733cf0c52770505e0800000000000000
+      internalID: -1944139476388297929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_50
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1210
+        width: 83
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de587e868e8949a70800000000000000
+      internalID: 8832852893140223469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_51
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1308
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0158b9d328de1da00800000000000000
+      internalID: 779665354146940176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_52
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1190
+        width: 67
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb99ffcda81f4ea60800000000000000
+      internalID: 7702546841425910206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_53
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1153
+        width: 286
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1bba1e5da2bd310800000000000000
+      internalID: 1430784404722790862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_54
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1153
+        width: 92
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b097ca2ec63176fe0800000000000000
+      internalID: -1195965817663227637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_55
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1149
+        width: 92
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29918f94573db0ee0800000000000000
+      internalID: -1293707967233255022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_56
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 1151
+        width: 165
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16628c640defd3310800000000000000
+      internalID: 1386544430794155617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_57
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 1215
+        width: 161
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28fbb267406e30d0800000000000000
+      internalID: -3441207205549049813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_58
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1185
+        width: 63
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7394951af13ef40800000000000000
+      internalID: 5756479526557792223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_59
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1241
+        width: 86
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c340a6296faa680800000000000000
+      internalID: -8742904617882076127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_60
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1202
+        width: 164
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef84818411b76eb0800000000000000
+      internalID: -4726614582271635486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_61
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 1071
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561dcb880d892e730800000000000000
+      internalID: 4026949038237340005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_62
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 1170
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcebd6b07c59da8c0800000000000000
+      internalID: -3986365413030248757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_63
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 1180
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 692ebdd09b74f3200800000000000000
+      internalID: 161926971735663254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_64
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1183
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b9b9f27186f7410800000000000000
+      internalID: 1477013651593075468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_65
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 1176
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55db1ca2c7f492d90800000000000000
+      internalID: -7122073940997849771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_66
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 1179
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c37e45a9c321bc0800000000000000
+      internalID: -3813919300882318220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_67
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1189
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405196b366cf23690800000000000000
+      internalID: -7623753703171222268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_68
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1074
+        width: 89
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fe7841824669530800000000000000
+      internalID: 3861383853822701427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_69
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1059
+        width: 173
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f78f408b34998c0800000000000000
+      internalID: -3992085137050796204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_70
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1151
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b4c28fe23bf0d5c0800000000000000
+      internalID: -4192575056896670542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_71
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 1151
+        width: 13
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40e5b18b8a8141d0800000000000000
+      internalID: -3368258714515152819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_72
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1144
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed13ceb185fea1090800000000000000
+      internalID: -8062869021148827170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_73
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 1138
+        width: 52
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2814b4aed98360d0800000000000000
+      internalID: -3430746901787174869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_74
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1145
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683cd77b2d7cfc740800000000000000
+      internalID: 5174574204707521414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_75
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1066
+        width: 90
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc72e4e8bac106130800000000000000
+      internalID: 3557875228775163851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_76
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 1167
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148b074350cb937e0800000000000000
+      internalID: -1785189046735030207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_77
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 997
+        width: 218
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e18e35a189cb1950800000000000000
+      internalID: 6420947252407075305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_78
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1137
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463a6170d9f09d010800000000000000
+      internalID: 1214018741656265572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_79
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1121
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11199011810db2cc0800000000000000
+      internalID: -3734662664190062319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_80
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1022
+        width: 108
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2994dff0f703ac5e0800000000000000
+      internalID: -1888643771441264238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_81
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 1058
+        width: 162
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cccdf936fb9b040800000000000000
+      internalID: 4663969323723574389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_82
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 1129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59440e87c422dffd0800000000000000
+      internalID: -2306649722303003499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_83
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1032
+        width: 68
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ac7e49376adf260800000000000000
+      internalID: 7133040400174402086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_84
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1111
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4e7cca1223bb890800000000000000
+      internalID: -7441298839085521721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_85
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1043
+        width: 166
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d710f54856a54090800000000000000
+      internalID: -8050845860794198058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_86
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 1067
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261da02a52fd9ee10800000000000000
+      internalID: 2227556843436822882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_87
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 824
+        width: 106
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791bd86a3d14d3ae0800000000000000
+      internalID: -1568024717966855785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_88
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 998
+        width: 42
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2529fda2b882e0bb0800000000000000
+      internalID: -4967988760758218158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_89
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 890
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ff7949135972b40800000000000000
+      internalID: 5415461117115236119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_90
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 797
+        width: 224
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac6bc657582e28d80800000000000000
+      internalID: -8249782504560740662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_91
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 1022
+        width: 108
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a28d8c80fb0aa80800000000000000
+      internalID: -8457550055751538128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_92
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1042
+        width: 106
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 624316e01a1e63240800000000000000
+      internalID: 4771248937092854822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_93
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 1050
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51370146b2d40c9b0800000000000000
+      internalID: -5061961132406705387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_94
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 1027
+        width: 27
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ebc0bf740cd77a0800000000000000
+      internalID: -6377730081899626869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_95
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 782
+        width: 90
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae0baee45637a6f50800000000000000
+      internalID: 6875434660087378154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_96
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 790
+        width: 90
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c850abb59007f9e0800000000000000
+      internalID: -1587799700526835515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_97
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1030
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7eb7fd87d3332f0800000000000000
+      internalID: -994383503363938316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_98
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 860
+        width: 140
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152ac72b4efc82110800000000000000
+      internalID: 1236466678867206737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_99
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 1038
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbdba17f3b3d93540800000000000000
+      internalID: 4988250832187866556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_100
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 903
+        width: 41
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ba8812d6602ebb0800000000000000
+      internalID: -4908353578096612601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_101
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 848
+        width: 180
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd64a786f2a3aa70800000000000000
+      internalID: 8837086073552399826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_102
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1020
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f5ffc77156c6160800000000000000
+      internalID: 7020097070719524651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_103
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1022
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df35fbee21addf00800000000000000
+      internalID: 1143247103321259987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_104
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 842
+        width: 289
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043d79169d1cfe610800000000000000
+      internalID: 1652752727657665344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_105
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 831
+        width: 112
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc62d8fb1e912e90800000000000000
+      internalID: -7052181698509640525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_106
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 851
+        width: 159
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 382a27478cc28e1b0800000000000000
+      internalID: -5627198494940683645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_107
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 992
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81db33ea6f74068a0800000000000000
+      internalID: -6313967552763282152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_108
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 933
+        width: 89
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0357780e40d65670800000000000000
+      internalID: 8527231978040677130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_109
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 968
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9141136690d8df130800000000000000
+      internalID: 3602190348474979353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_110
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 923
+        width: 71
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5197cdb8a3eea7380800000000000000
+      internalID: -8972597372360296171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_111
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 960
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3621c3a7c4b8120800000000000000
+      internalID: 2417109712891962357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_112
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 935
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b722301aaf39523a0800000000000000
+      internalID: -6690778966736559493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_113
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 938
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abecd81ee2141410800000000000000
+      internalID: 1446802194121419689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_114
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 843
+        width: 79
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ba3fdafde5e0f070800000000000000
+      internalID: 8138257336937429682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_115
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 935
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baffe80de6483b5a0800000000000000
+      internalID: -6506711425139933269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_116
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 909
+        width: 111
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adaa2c30ee48689a0800000000000000
+      internalID: -6231146876620330278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_117
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 912
+        width: 36
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38baae2b234809a0800000000000000
+      internalID: -6266685028740450243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_118
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 892
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89436331ae233d080800000000000000
+      internalID: -9163924835842771816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_119
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 884
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8dc601b3eaf2f50800000000000000
+      internalID: 6858892326210427065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_120
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 874
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3882de5e9d0c600800000000000000
+      internalID: 486628341305607121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_121
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 877
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb7b7fa658929be0800000000000000
+      internalID: -1471946630118016072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 726
+        width: 135
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911ed8e59a24c2a90800000000000000
+      internalID: -7337416397690117863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_123
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 852
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f02f124e44c69b0800000000000000
+      internalID: -5085614132595388658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_124
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 846
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ee188fc6684ac20800000000000000
+      internalID: 3216843836433231388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_125
+      rect:
+        serializedVersion: 2
+        x: 1774
+        y: 830
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bed0196593a8c120800000000000000
+      internalID: 2434375460701920946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_126
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 838
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce154c257a8b7fba0800000000000000
+      internalID: -6055168145188695572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_127
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 844
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d342799b30c71d0800000000000000
+      internalID: -3351799927030923938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_128
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 797
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49b61d0fd84efe4f0800000000000000
+      internalID: -797167310739510380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_129
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 591
+        width: 215
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1b26256ae4f1640800000000000000
+      internalID: 5052843783186723277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_130
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 508
+        width: 118
+        height: 341
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f5e820081464c50800000000000000
+      internalID: 6649073917913620266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_131
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 791
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1e4c25667c54200800000000000000
+      internalID: 163756203758117347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_132
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 509
+        width: 110
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2e6409b81d96ac0800000000000000
+      internalID: -3861324808142265620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_133
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 838
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f1aa94e0d33b730800000000000000
+      internalID: 4013618824491966330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_134
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 841
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf8bf3dbd8f8e320800000000000000
+      internalID: 2587591608962355166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_135
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 803
+        width: 125
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c3537a4c218b720800000000000000
+      internalID: 2862058199022124043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_136
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 567
+        width: 96
+        height: 261
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3978608dbba32c390800000000000000
+      internalID: -7799607026194675821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_137
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 490
+        width: 115
+        height: 332
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a340765be4389480800000000000000
+      internalID: -8892299278870887511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_138
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 524
+        width: 106
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48216beb96f19350800000000000000
+      internalID: 6021865326300440653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_139
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 816
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b49e45fff716b10800000000000000
+      internalID: 1972998846382951287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_140
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 816
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f24c6ecafb5cc1a0800000000000000
+      internalID: -6787949405591026957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_141
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 785
+        width: 24
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf63d9885a925b9d0800000000000000
+      internalID: -2759253405756213509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_142
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 603
+        width: 274
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3665c8dd76975a660800000000000000
+      internalID: 7396451450031461987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_143
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 751
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14842a32154413a00800000000000000
+      internalID: 734443329518979137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_144
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 750
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49d52a97f7656ac0800000000000000
+      internalID: -3862566792259577522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_145
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 794
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffb99a2ce867a740800000000000000
+      internalID: 5163210861339852786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_146
+      rect:
+        serializedVersion: 2
+        x: 1849
+        y: 795
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fe62fb6ccf9afe0800000000000000
+      internalID: -1177131897039949950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_147
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 776
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2ec8e24ef841330800000000000000
+      internalID: 3680725005664838312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_148
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 585
+        width: 84
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0607dab9049021d50800000000000000
+      internalID: 6706432968202481760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_149
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 501
+        width: 159
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09d24d90f9a41ef20800000000000000
+      internalID: 3450120836467666320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_150
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 498
+        width: 145
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c01de6a43a8bdaf0800000000000000
+      internalID: -370550585584447290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_151
+      rect:
+        serializedVersion: 2
+        x: 1914
+        y: 749
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c0259bb56d222e0800000000000000
+      internalID: -2151921982490145635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_152
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 171
+        height: 721
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac13d9a8f9101b670800000000000000
+      internalID: 8552618952090268106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_153
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 713
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3e5a0ddef9f4980800000000000000
+      internalID: -8552441323596684373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_154
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 715
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af19040f3519e4d60800000000000000
+      internalID: 7876392588016652794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_155
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 640
+        width: 30
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 068b930b6a9c6dd60800000000000000
+      internalID: 7914735112908552288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_156
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 624
+        width: 253
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75251bfcec62f63b0800000000000000
+      internalID: -5517148348815945129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_157
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 683
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e869885f06b7c04c0800000000000000
+      internalID: -4319942286188702066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_158
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 639
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ec560f8e8752cf0800000000000000
+      internalID: -277682860152467932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_159
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 615
+        width: 31
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5473453debe567b90800000000000000
+      internalID: -7244498776896555195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_160
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 3
+        width: 253
+        height: 598
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c19cc7f1584b4e40800000000000000
+      internalID: 5641682475098608067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_161
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 594
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef746419a23850d30800000000000000
+      internalID: 4397064830046324734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_162
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 593
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645523b18e44c33e0800000000000000
+      internalID: -2072705964817885882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_163
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 551
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73368c780aa11e9b0800000000000000
+      internalID: -5052728030157839561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_164
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 552
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b681f98c7086feaf0800000000000000
+      internalID: -364958662153791381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_165
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 588
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f8057c7e9b81e50800000000000000
+      internalID: 6780373644138811192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_166
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 3
+        width: 223
+        height: 586
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03105a07dcb442980800000000000000
+      internalID: -8564637245621599952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_167
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3
+        width: 109
+        height: 562
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efbfc9455f53c6b00800000000000000
+      internalID: 823092159704792062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_168
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 509
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0844b84ed0610e0800000000000000
+      internalID: -2299635284485832488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_169
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 509
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8e753e9932b81a0800000000000000
+      internalID: -6806307267989215031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_170
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 471
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd420089158cc010800000000000000
+      internalID: 1210488744424132055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_171
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 383
+        width: 246
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f465ae10754e0380800000000000000
+      internalID: -9003182257214233353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_172
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 204
+        width: 191
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7142fd2a94cf41370800000000000000
+      internalID: 8292530207091270679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_173
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 197
+        width: 147
+        height: 310
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e31405d280328c0800000000000000
+      internalID: -4025364651226087856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_174
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 193
+        width: 191
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e966445611f12980800000000000000
+      internalID: -8565299938076497434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_175
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 193
+        width: 152
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7333301377d32d520800000000000000
+      internalID: 2725308306645267255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_176
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 458
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4083d63007acb9500800000000000000
+      internalID: 404139174022428676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_177
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 470
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f260bf1ac033760800000000000000
+      internalID: 7436301299559575372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_178
+      rect:
+        serializedVersion: 2
+        x: 1526
+        y: 331
+        width: 91
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c6caa476c2005a0800000000000000
+      internalID: -6557192235305374661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_179
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 431
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7491e170555cb50800000000000000
+      internalID: 6612785116921546691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_180
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 430
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5422b4d1ba02b750800000000000000
+      internalID: 6319124986048160858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_181
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 438
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ca093cf05dd66680800000000000000
+      internalID: -8762072685104002366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_182
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 401
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0b583cf31131740800000000000000
+      internalID: 5121456166811316441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_183
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 368
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f2489a556f99310800000000000000
+      internalID: 1412430805934026618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_184
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 331
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a5346c07a7c85c0800000000000000
+      internalID: -4211856926717027803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_185
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 320
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b0b827d2c37f180800000000000000
+      internalID: -9081723957676406004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_186
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 189
+        width: 251
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ba7610d6f1f5ee60800000000000000
+      internalID: 7991059156194196147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_187
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 221
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f5342662d3b4a80800000000000000
+      internalID: -8481618238155563115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_188
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 239
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede88f6efa85835b0800000000000000
+      internalID: -5388459441631228194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_189
+      rect:
+        serializedVersion: 2
+        x: 1513
+        y: 190
+        width: 98
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5ce9494a9765d10800000000000000
+      internalID: 2114010822872057335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_190
+      rect:
+        serializedVersion: 2
+        x: 1631
+        y: 231
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b88db7b53b9ff60800000000000000
+      internalID: 8068677412912139030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_191
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 190
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c4ceb068f73b03f0800000000000000
+      internalID: -933590957834713912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_192
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 232
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5b78ef31357895e0800000000000000
+      internalID: -1902641988177986726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_193
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 7
+        width: 139
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f80d529748edddd0800000000000000
+      internalID: -2459554427378530058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_194
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 92
+        width: 41
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c44b15703248f0f0800000000000000
+      internalID: -1083042934492019511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_195
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 3
+        width: 147
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ef0383281a4156c0800000000000000
+      internalID: -4156459513550794780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_196
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 3
+        width: 302
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c630a5496daaaf80800000000000000
+      internalID: -8094466712593746240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_197
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 3
+        width: 300
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d58e1d916098177d0800000000000000
+      internalID: -2922404023890745251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: animTower_198
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 3
+        width: 297
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a146f7fb3209b06a0800000000000000
+      internalID: -6481928755458644966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      animTower_0: 2813083980563112571
+      animTower_1: -2431312461833204074
+      animTower_10: 8571830269235419727
+      animTower_100: -4908353578096612601
+      animTower_101: 8837086073552399826
+      animTower_102: 7020097070719524651
+      animTower_103: 1143247103321259987
+      animTower_104: 1652752727657665344
+      animTower_105: -7052181698509640525
+      animTower_106: -5627198494940683645
+      animTower_107: -6313967552763282152
+      animTower_108: 8527231978040677130
+      animTower_109: 3602190348474979353
+      animTower_11: -2422309206855729932
+      animTower_110: -8972597372360296171
+      animTower_111: 2417109712891962357
+      animTower_112: -6690778966736559493
+      animTower_113: 1446802194121419689
+      animTower_114: 8138257336937429682
+      animTower_115: -6506711425139933269
+      animTower_116: -6231146876620330278
+      animTower_117: -6266685028740450243
+      animTower_118: -9163924835842771816
+      animTower_119: 6858892326210427065
+      animTower_12: -7563780742138434217
+      animTower_120: 486628341305607121
+      animTower_121: -1471946630118016072
+      animTower_122: -7337416397690117863
+      animTower_123: -5085614132595388658
+      animTower_124: 3216843836433231388
+      animTower_125: 2434375460701920946
+      animTower_126: -6055168145188695572
+      animTower_127: -3351799927030923938
+      animTower_128: -797167310739510380
+      animTower_129: 5052843783186723277
+      animTower_13: 5107505113670278133
+      animTower_130: 6649073917913620266
+      animTower_131: 163756203758117347
+      animTower_132: -3861324808142265620
+      animTower_133: 4013618824491966330
+      animTower_134: 2587591608962355166
+      animTower_135: 2862058199022124043
+      animTower_136: -7799607026194675821
+      animTower_137: -8892299278870887511
+      animTower_138: 6021865326300440653
+      animTower_139: 1972998846382951287
+      animTower_14: 2250541238299482378
+      animTower_140: -6787949405591026957
+      animTower_141: -2759253405756213509
+      animTower_142: 7396451450031461987
+      animTower_143: 734443329518979137
+      animTower_144: -3862566792259577522
+      animTower_145: 5163210861339852786
+      animTower_146: -1177131897039949950
+      animTower_147: 3680725005664838312
+      animTower_148: 6706432968202481760
+      animTower_149: 3450120836467666320
+      animTower_15: -2235525663790206545
+      animTower_150: -370550585584447290
+      animTower_151: -2151921982490145635
+      animTower_152: 8552618952090268106
+      animTower_153: -8552441323596684373
+      animTower_154: 7876392588016652794
+      animTower_155: 7914735112908552288
+      animTower_156: -5517148348815945129
+      animTower_157: -4319942286188702066
+      animTower_158: -277682860152467932
+      animTower_159: -7244498776896555195
+      animTower_16: -743907291646908680
+      animTower_160: 5641682475098608067
+      animTower_161: 4397064830046324734
+      animTower_162: -2072705964817885882
+      animTower_163: -5052728030157839561
+      animTower_164: -364958662153791381
+      animTower_165: 6780373644138811192
+      animTower_166: -8564637245621599952
+      animTower_167: 823092159704792062
+      animTower_168: -2299635284485832488
+      animTower_169: -6806307267989215031
+      animTower_17: -4198544457101732686
+      animTower_170: 1210488744424132055
+      animTower_171: -9003182257214233353
+      animTower_172: 8292530207091270679
+      animTower_173: -4025364651226087856
+      animTower_174: -8565299938076497434
+      animTower_175: 2725308306645267255
+      animTower_176: 404139174022428676
+      animTower_177: 7436301299559575372
+      animTower_178: -6557192235305374661
+      animTower_179: 6612785116921546691
+      animTower_18: 3158021035280033509
+      animTower_180: 6319124986048160858
+      animTower_181: -8762072685104002366
+      animTower_182: 5121456166811316441
+      animTower_183: 1412430805934026618
+      animTower_184: -4211856926717027803
+      animTower_185: -9081723957676406004
+      animTower_186: 7991059156194196147
+      animTower_187: -8481618238155563115
+      animTower_188: -5388459441631228194
+      animTower_189: 2114010822872057335
+      animTower_19: 2700235702125954253
+      animTower_190: 8068677412912139030
+      animTower_191: -933590957834713912
+      animTower_192: -1902641988177986726
+      animTower_193: -2459554427378530058
+      animTower_194: -1083042934492019511
+      animTower_195: -4156459513550794780
+      animTower_196: -8094466712593746240
+      animTower_197: -2922404023890745251
+      animTower_198: -6481928755458644966
+      animTower_2: -28371398711327994
+      animTower_20: 6022611849834605803
+      animTower_21: 7311349740955807841
+      animTower_22: -4390656639382139487
+      animTower_23: -7951360355238446807
+      animTower_24: 7669369069367793054
+      animTower_25: -3326032431479671570
+      animTower_26: 5597304966151121040
+      animTower_27: -1964148211911508249
+      animTower_28: -4532340420059628797
+      animTower_29: -750119330121249263
+      animTower_3: 6633404643222845053
+      animTower_30: 5511615603171481732
+      animTower_31: -4401911147342041755
+      animTower_32: 70551516327274282
+      animTower_33: 5105645357624679348
+      animTower_34: -9087266426879580090
+      animTower_35: 2020317712040238738
+      animTower_36: -8259787578169561728
+      animTower_37: 4577938617194593453
+      animTower_38: -1306047372677965521
+      animTower_39: -6634044609293648733
+      animTower_4: 8750214424818957877
+      animTower_40: 5361889081103840647
+      animTower_41: -1736679480316312828
+      animTower_42: -6482549803553104828
+      animTower_43: -2341884499674656255
+      animTower_44: -939581959486751265
+      animTower_45: -1678564835656099047
+      animTower_46: 2336350760845224733
+      animTower_47: 2703703318539042767
+      animTower_48: -3477486198317823140
+      animTower_49: -1944139476388297929
+      animTower_5: -7089359561377770887
+      animTower_50: 8832852893140223469
+      animTower_51: 779665354146940176
+      animTower_52: 7702546841425910206
+      animTower_53: 1430784404722790862
+      animTower_54: -1195965817663227637
+      animTower_55: -1293707967233255022
+      animTower_56: 1386544430794155617
+      animTower_57: -3441207205549049813
+      animTower_58: 5756479526557792223
+      animTower_59: -8742904617882076127
+      animTower_6: 3739936878448466372
+      animTower_60: -4726614582271635486
+      animTower_61: 4026949038237340005
+      animTower_62: -3986365413030248757
+      animTower_63: 161926971735663254
+      animTower_64: 1477013651593075468
+      animTower_65: -7122073940997849771
+      animTower_66: -3813919300882318220
+      animTower_67: -7623753703171222268
+      animTower_68: 3861383853822701427
+      animTower_69: -3992085137050796204
+      animTower_7: -491863603514716019
+      animTower_70: -4192575056896670542
+      animTower_71: -3368258714515152819
+      animTower_72: -8062869021148827170
+      animTower_73: -3430746901787174869
+      animTower_74: 5174574204707521414
+      animTower_75: 3557875228775163851
+      animTower_76: -1785189046735030207
+      animTower_77: 6420947252407075305
+      animTower_78: 1214018741656265572
+      animTower_79: -3734662664190062319
+      animTower_8: 531014213355573275
+      animTower_80: -1888643771441264238
+      animTower_81: 4663969323723574389
+      animTower_82: -2306649722303003499
+      animTower_83: 7133040400174402086
+      animTower_84: -7441298839085521721
+      animTower_85: -8050845860794198058
+      animTower_86: 2227556843436822882
+      animTower_87: -1568024717966855785
+      animTower_88: -4967988760758218158
+      animTower_89: 5415461117115236119
+      animTower_9: 8279820278638102159
+      animTower_90: -8249782504560740662
+      animTower_91: -8457550055751538128
+      animTower_92: 4771248937092854822
+      animTower_93: -5061961132406705387
+      animTower_94: -6377730081899626869
+      animTower_95: 6875434660087378154
+      animTower_96: -1587799700526835515
+      animTower_97: -994383503363938316
+      animTower_98: 1236466678867206737
+      animTower_99: 4988250832187866556
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
