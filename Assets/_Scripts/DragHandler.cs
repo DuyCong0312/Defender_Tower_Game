@@ -46,7 +46,13 @@ public class DragHandler : MonoBehaviour
 
         ghostObject.transform.position = mouseWorld;
 
-        var originTile = GridManager.Instance.GetTileAtWorldPos(mouseWorld);
+        var centerTile = GridManager.Instance.GetTileAtWorldPos(mouseWorld);
+
+        Tiles originTile = null;
+        if (centerTile != null)
+        {
+            originTile = GridManager.Instance.GetOriginFromCenter(centerTile, currentSO.GridSize);
+        }
         UpdateHighlight(originTile);
 
         if (mouse.leftButton.wasReleasedThisFrame)
@@ -97,7 +103,6 @@ public class DragHandler : MonoBehaviour
         highlightedTiles.Clear();
     }
 
-
     void ConfirmDrop(Tiles originTile)
     {
         Vector3 centerPos = CalculateCenterPosition(originTile, currentSO.GridSize);
@@ -124,6 +129,7 @@ public class DragHandler : MonoBehaviour
     {
         ClearHighlight();
         if (ghostObject != null) Destroy(ghostObject);
+        GridManager.Instance.HideAllTiles();
         ghostObject = null;
         currentSO = null;
     }

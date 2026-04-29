@@ -7,7 +7,7 @@ public class GridManager : MonoBehaviour
 
     [Header("Grid Settings")]
     [SerializeField] private int totalCols = 9;
-    [SerializeField] private int totalRows = 5;
+    [SerializeField] private int totalRows = 5; 
 
     private Dictionary<Vector2Int, Tiles> grid = new();
 
@@ -27,7 +27,7 @@ public class GridManager : MonoBehaviour
         }
     }
 
-    public Tiles GetTileAtWorldPos(Vector2 worldPos)
+    public Tiles GetTileAtWorldPos(Vector2 worldPos, float maxDistance = 0.75f)
     {
         Tiles closest = null;
         float minDist = float.MaxValue;
@@ -41,7 +41,22 @@ public class GridManager : MonoBehaviour
                 closest = tile;
             }
         }
-        return closest;
+
+        return minDist <= maxDistance ? closest : null;
+    }
+
+    public Tiles GetOriginFromCenter(Tiles centerTile, Vector2Int size)
+    {
+        int offsetX = size.x / 2;
+        int offsetY = size.y / 2;
+
+        var originKey = new Vector2Int(
+            centerTile.col - offsetX,
+            centerTile.row - offsetY
+        );
+
+        grid.TryGetValue(originKey, out var originTile);
+        return originTile;
     }
 
     public bool CanPlace(Tiles originTile, Vector2Int size)

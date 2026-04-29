@@ -3,16 +3,17 @@ using UnityEngine;
 
 public class CheckHit : MonoBehaviour
 {
-    [SerializeField] private LayerMask whatIsEnemies;
-    private Collider2D coll;
-    private List<Collider2D> hitResults = new List<Collider2D>();
+    [SerializeField] protected LayerMask whatIsEnemies;
+    protected Collider2D coll;
+    protected List<Collider2D> hitResults = new List<Collider2D>();
+    public bool hasTarget;
 
-    private void Start()
+    protected virtual void Start()
     {
         coll = GetComponentInChildren<Collider2D>();
     }
 
-    public bool CheckForwardBox(Transform attackPos, Vector2 attackSize, float angle)
+    protected virtual bool CheckForwardBox(Transform attackPos, Vector2 attackSize, float angle)
     {
         hitResults.Clear();
 
@@ -28,7 +29,7 @@ public class CheckHit : MonoBehaviour
         return hitResults.Count > 0;
     }
 
-    public bool CheckCircle(Transform attackPos, float range)
+    protected virtual bool CheckCircle(Transform attackPos, float range)
     {
         hitResults.Clear();
 
@@ -44,8 +45,13 @@ public class CheckHit : MonoBehaviour
         return hitResults.Count > 0;
     }
 
-    public List<Collider2D> GetHits()
+    public virtual List<Collider2D> GetHits()
     {
         return hitResults;
+    }
+
+    public virtual void CheckEnemy()
+    {
+        return;
     }
 }

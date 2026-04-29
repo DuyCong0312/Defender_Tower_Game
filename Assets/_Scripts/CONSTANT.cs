@@ -1,7 +1,7 @@
 public static class CONSTANT
 {
     // Tag
-    public static readonly string Charater = "Charater";
+    public static readonly string Character = "Character";
     public static readonly string Enemy = "Enemy";
     public static readonly string Wall = "Wall";
 

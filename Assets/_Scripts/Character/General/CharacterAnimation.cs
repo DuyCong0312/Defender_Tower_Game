@@ -21,7 +21,7 @@ public class CharacterAnimation : MonoBehaviour
     private SkeletonAnimation skeletonAnimation;
     public event Action<string> OnAnimationEvent; 
     public event Action<string> OnAnimationComplete;
-    private CharacterState currentState;
+    private CharacterState currentState = CharacterState.Idle;
     private string currentAnimation;
 
     private void Awake()
@@ -36,6 +36,7 @@ public class CharacterAnimation : MonoBehaviour
             skeletonAnimation.AnimationState.Event += HandleSpineEvent;
             skeletonAnimation.AnimationState.Complete += HandleAnimationComplete;
         }
+        SetState(currentState);
     }
 
 

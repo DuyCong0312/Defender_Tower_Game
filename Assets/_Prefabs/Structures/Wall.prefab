@@ -49,8 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::StructuresHealth
   healthBar: {fileID: 7027475040748641047}
-  maxHealth: 100
-  isDead: 0
+  placeableSO: {fileID: 11400000, guid: 48ac178ac3bc495429d81bc9a778ca1e, type: 2}
 --- !u!114 &774246839640995389
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+
     [SerializeField] private GameObject panel;
     [SerializeField] private TextMeshProUGUI winText;
     [SerializeField] private TextMeshProUGUI coinAmountText;
@@ -16,16 +17,18 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        if (DebugData.coin > 0)
+        {
+            coinAmount = DebugData.coin;
+        }
+
         UpdateText();
     }
 
-    private void Update()
+    public void Win()
     {
-        if(coinAmount >= 1000f)
-        {
-            panel.SetActive(true);
-            winText.text = "You Win";
-        }
+        panel.SetActive(true);
+        winText.text = "You Win";
     }
 
     public void Lose()
@@ -49,5 +52,13 @@ public class GameManager : MonoBehaviour
     private void UpdateText()
     {
         coinAmountText.text = coinAmount.ToString();
+    }
+
+
+    // Test
+    public void SetCoin(float coinAmount)
+    {
+        this.coinAmount = coinAmount;
+        UpdateText();
     }
 }

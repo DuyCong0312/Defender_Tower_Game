@@ -18,3 +18,7 @@ MonoBehaviour:
   avatar: {fileID: 8220805813629080422, guid: 13882df3ecaccb24db042836f5ea945f, type: 3}
   prefab: {fileID: 4816336808589253875, guid: 3a506ee73ed7475429190ebe65ca071c, type: 3}
   gridSize: {x: 1, y: 1}
+  healthAmount: 20
+  attackSpeed: 1
+  movementSpeed: 2
+  attackDamage: 5

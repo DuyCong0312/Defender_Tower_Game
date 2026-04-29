@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.TextCore.Text;
 
 public class Projectile : MonoBehaviour
 {
     private Rigidbody2D rb;
-    [SerializeField] private float attackDamage = 5f;
     [SerializeField] private float timeExist = 2f;
     [SerializeField] private float speed = 10f;
     private GameObject owner;
@@ -35,15 +35,19 @@ public class Projectile : MonoBehaviour
     {
         if (collision.gameObject == owner) return;
 
-        if (owner.GetComponent<XaThu>().defender)
+        if (owner.GetComponent<BaseCharacter>().defender)
         {
-            if (collision.gameObject.CompareTag(CONSTANT.Wall)) return;
+            if (collision.gameObject.CompareTag(CONSTANT.Wall) ||
+                collision.gameObject.CompareTag(CONSTANT.Character)) return;
         }
 
         if (collision.gameObject.CompareTag(CONSTANT.Enemy))
         {
-            EnemyHealth playerHealth = collision.GetComponentInParent<EnemyHealth>();
-            playerHealth.TakeDamage(attackDamage);
+            BaseHealth enemyHealth = collision.GetComponentInParent<BaseHealth>();
+            if (enemyHealth != null)
+            {
+                enemyHealth.TakeDamage(owner.GetComponent<BaseCharacter>().GetCharacterSO().AttackDamage);
+            }
             Destroy(this.gameObject);
         }
 

@@ -110,12 +110,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4240554761614733277}
   - component: {fileID: 7063901988195021720}
-  - component: {fileID: 8030731318640702561}
   - component: {fileID: 5489817297914053457}
+  - component: {fileID: 3645489523300030339}
   - component: {fileID: 8890218851354281984}
   - component: {fileID: -4141252122107358703}
   m_Layer: 6
-  m_Name: Character
+  m_Name: XaThu1
   m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -154,27 +154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::XaThu
   defender: 1
-  attackPos: {fileID: 1194553519245918231}
-  attackSize: {x: 14, y: 1.25}
-  attackAngle: 0
+  characterSO: {fileID: 11400000, guid: 448450b766201364a95885466c367d7c, type: 2}
   projectilePrefab: {fileID: 4215899331642195976, guid: ac95df35682044241ab33299b99dd574, type: 3}
   spawnPos: {fileID: 603389712178104987}
-  speed: 2
---- !u!114 &8030731318640702561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4816336808589253875}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0406f8958a1c25944aba7cfba7323a40, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CheckHit
-  whatIsEnemies:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &5489817297914053457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,8 +170,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterHealth
   healthBar: {fileID: 2948729234251636544}
-  maxHealth: 20
-  isDead: 0
+  placeableSO: {fileID: 11400000, guid: 448450b766201364a95885466c367d7c, type: 2}
+--- !u!114 &3645489523300030339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4816336808589253875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7cf2a91fe2fad44dad9662fe4762477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XaThuCheckHit
+  whatIsEnemies:
+    serializedVersion: 2
+    m_Bits: 256
+  hasTarget: 0
+  attackPos: {fileID: 1194553519245918231}
+  attackSize: {x: 14, y: 1.25}
+  attackAngle: 0
 --- !u!114 &8890218851354281984
 MonoBehaviour:
   m_ObjectHideFlags: 0

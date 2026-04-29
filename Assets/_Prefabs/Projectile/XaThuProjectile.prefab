@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3925904351969379682}
   - component: {fileID: 2061908427406880004}
   - component: {fileID: 2630106424898609852}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: XaThuFXAvatar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 1696050255270352664}
   - component: {fileID: 1215629429899977854}
   - component: {fileID: 7770747140267036230}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: XaThuProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,6 +248,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f29a11de9aa618f43894226bf0a82951, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Projectile
-  attackDamage: 4
   timeExist: 2
   speed: 10
