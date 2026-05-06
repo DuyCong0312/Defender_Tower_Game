@@ -59,7 +59,7 @@ public class DragHandler : MonoBehaviour
         {
             if (originTile != null && 
                 GridManager.Instance.CanPlace(originTile, currentSO.GridSize) && 
-                GameManager.Instance.coinAmount >= currentSO.Price)
+                GameManager.Instance.coinAmount >= (currentSO.Price * (1 - GameManager.Instance.discount)))
                 ConfirmDrop(originTile);
             else
                 CancelDrag();

@@ -1,4 +1,6 @@
+﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,102 +10,188 @@ public class Spawner : MonoBehaviour
     public class SpawnableObject
     {
         public GameObject enemyPrefab;
-        public int amoutOfEnemy;
+        public int amountOfEnemy;
     }
 
-    [SerializeField] private SpawnableObject[] objects;
+    [System.Serializable]
+    public class Wave
+    {
+        public string waveName = "Wave";
+
+        public SpawnableObject[] ambushEnemies;
+        public SpawnableObject[] waveEnemies;
+
+        public float waveBurstSpawnDelay = 0.3f;
+
+        [HideInInspector] public bool hasTriggered = false;
+        [HideInInspector] public bool isBurstDone = false;
+        [HideInInspector] public List<GameObject> ambushPool = new List<GameObject>();
+        [HideInInspector] public List<GameObject> wavePool = new List<GameObject>();
+    }
+
+    [SerializeField] private Wave[] waves;
     [SerializeField] private Transform[] spawnPos;
     [SerializeField] private Slider progressSlider;
+    [SerializeField] private GameObject waveAnnoucement;
+    [SerializeField] private TextMeshProUGUI waveAnnoucementText;
+
     [SerializeField] private float minSpawnDelay = 1f;
     [SerializeField] private float maxSpawnDelay = 5f;
 
-    private List<GameObject> spawnPool = new List<GameObject>();
     private List<GameObject> currentEnemies = new List<GameObject>();
 
-    private float enemySpawnTime;
-    private float timeUntilEnemySpawn;
+    private float[] ambushTimers;
+    private float[] ambushIntervals;
 
-    private int totalEnemies;
-    private int spawnedEnemies;
+    private int totalEnemies = 0; 
+    private int spawnedEnemies = 0;
+
+    private int currentWaveIndex = 0;
+
+    private bool allWavesTriggered = false;
+    private bool gameEnded = false;
 
     private void Start()
     {
-        if (DebugData.enemy0 > 0)
-            objects[0].amoutOfEnemy = DebugData.enemy0;
-
-        if (DebugData.enemy1 > 0)
-            objects[1].amoutOfEnemy = DebugData.enemy1;
-
-        if (DebugData.enemy2 > 0)
-            objects[2].amoutOfEnemy = DebugData.enemy2;
-
-        if (DebugData.enemy3 > 0)
-            objects[3].amoutOfEnemy = DebugData.enemy3;
-
-        BuildSpawnPool();
+        BuildAllPools(); 
+        InitAmbushTimers();
         UpdateProgressSlider();
-        RandomSpawnTime();
     }
 
     private void Update()
     {
-        SpawnLoop();
+        if (gameEnded) return;
 
-        if (spawnPool.Count == 0 && currentEnemies.Count == 0)
-        {
-            UpdateProgressSlider();
-            GameManager.Instance.Win();
-            enabled = false;
-        }
+        CheckWaveTriggers();
+        TickAmbushSpawners();
+        CheckWinCondition();
     }
 
-    private void BuildSpawnPool()
+    private void BuildAllPools()
     {
-        spawnPool.Clear();
         totalEnemies = 0;
 
-        foreach (var obj in objects)
+        foreach (var wave in waves)
         {
-            for (int i = 0; i < obj.amoutOfEnemy; i++)
-            {
-                spawnPool.Add(obj.enemyPrefab);
-                totalEnemies++;
-            }
+            wave.ambushPool.Clear();
+            wave.wavePool.Clear();
+
+            foreach (var obj in wave.ambushEnemies)
+                for (int i = 0; i < obj.amountOfEnemy; i++)
+                {
+                    wave.ambushPool.Add(obj.enemyPrefab);
+                    totalEnemies++;
+                }
+
+            foreach (var obj in wave.waveEnemies)
+                for (int i = 0; i < obj.amountOfEnemy; i++)
+                {
+                    wave.wavePool.Add(obj.enemyPrefab);
+                    totalEnemies++;
+                }
         }
     }
 
-    private void SpawnLoop()
+    private void InitAmbushTimers()
     {
-        if (spawnPool.Count == 0) return;
+        ambushTimers = new float[waves.Length];
+        ambushIntervals = new float[waves.Length];
 
-        timeUntilEnemySpawn += Time.deltaTime;
+        for (int i = 0; i < waves.Length; i++)
+            ambushIntervals[i] = Random.Range(minSpawnDelay, maxSpawnDelay);
+    }
 
-        if (timeUntilEnemySpawn >= enemySpawnTime)
+    private void CheckWaveTriggers()
+    {
+        if (currentWaveIndex >= waves.Length)
         {
-            Spawn();
-            RandomSpawnTime();
-            timeUntilEnemySpawn = 0f;
-            UpdateProgressSlider();
+            allWavesTriggered = true;
+            return;
+        }
+
+        Wave wave = waves[currentWaveIndex];
+        if (!wave.hasTriggered  && currentEnemies.Count == 0 && wave.ambushPool.Count == 0)
+        {
+            TriggerWave(currentWaveIndex);
+            currentWaveIndex++;
         }
     }
 
-    private void Spawn()
+    private void TickAmbushSpawners()
     {
-        int index = Random.Range(0, spawnPool.Count);
-        GameObject prefab = spawnPool[index];
-        spawnPool.RemoveAt(index);
+        if (currentWaveIndex >= waves.Length) return;
 
-        Transform randomSpawnPos = spawnPos[Random.Range(0, spawnPos.Length)];
-        GameObject enemy = Instantiate(prefab, randomSpawnPos.position, randomSpawnPos.rotation);
+        Wave wave = waves[currentWaveIndex];
 
-        currentEnemies.Add(enemy);
+        if (wave.hasTriggered) return;
+        if (wave.ambushPool.Count == 0) return;
+
+        ambushTimers[currentWaveIndex] += Time.deltaTime;
+
+        if (ambushTimers[currentWaveIndex] >= ambushIntervals[currentWaveIndex])
+        {
+            SpawnOneFrom(wave.ambushPool);
+            ambushTimers[currentWaveIndex] = 0f;
+            ambushIntervals[currentWaveIndex] = Random.Range(minSpawnDelay, maxSpawnDelay);
+        }
+    }
+
+    private void CheckWinCondition()
+    {
+        if (!allWavesTriggered) return;
+
+        foreach (var wave in waves)
+            if (!wave.isBurstDone) return;
+
+        if (currentEnemies.Count == 0)
+        {
+            gameEnded = true;
+            progressSlider.value = 1f;
+            GameManager.Instance.Win();
+        }
+    }
+
+    private void TriggerWave(int waveIndex)
+    {
+        Wave wave = waves[waveIndex];
+        wave.hasTriggered = true;
+
+        wave.wavePool.AddRange(wave.ambushPool);
+        wave.ambushPool.Clear();
+
+        StartCoroutine(BurstSpawn(wave));
+    }
+
+    private IEnumerator BurstSpawn(Wave wave)
+    {
+        waveAnnoucement.SetActive(true);
+        waveAnnoucementText.text = wave.waveName + "Starts";
+        yield return new WaitForSeconds(1f);
+        waveAnnoucement.SetActive(false);
+        while (wave.wavePool.Count > 0)
+        {
+            SpawnOneFrom(wave.wavePool);
+            yield return new WaitForSeconds(wave.waveBurstSpawnDelay);
+        }
+        wave.isBurstDone = true;
+    }
+
+    private void SpawnOneFrom(List<GameObject> pool)
+    {
+        int index = Random.Range(0, pool.Count);
+        GameObject prefab = pool[index];
+        pool.RemoveAt(index);
+
+        Transform spawnPoint = spawnPos[Random.Range(0, spawnPos.Length)];
+        GameObject enemy = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+
+        currentEnemies.Add(enemy); 
         spawnedEnemies++;
+        UpdateProgressSlider();
 
-        var enemyHealth = enemy.GetComponent<EnemyHealth>();
-        if (enemyHealth != null)
-        {
-            enemyHealth.OnDeath += RemoveEnemy;
-        }
+        var health = enemy.GetComponent<EnemyHealth>();
+        if (health != null)
+            health.OnDeath += RemoveEnemy;
     }
 
     private void RemoveEnemy(GameObject enemy)
@@ -117,31 +205,11 @@ public class Spawner : MonoBehaviour
         }
     }
 
-    private void RandomSpawnTime()
-    {
-        enemySpawnTime = Random.Range(minSpawnDelay, maxSpawnDelay);
-    }
-
     private void UpdateProgressSlider()
     {
         if (totalEnemies > 0)
         {
             progressSlider.value = (float)spawnedEnemies / totalEnemies;
         }
-    }
-
-    // test 
-    public void SetEnemyAmount(int index, int amount)
-    {
-        if (index < 0 || index >= objects.Length) return;
-
-        objects[index].amoutOfEnemy = amount;
-    }
-
-    public void Rebuild()
-    {
-        BuildSpawnPool();
-        spawnedEnemies = 0;
-        UpdateProgressSlider();
     }
 }

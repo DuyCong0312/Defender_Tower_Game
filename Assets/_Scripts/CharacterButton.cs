@@ -26,7 +26,10 @@ public class CharacterButton : MonoBehaviour, IPointerDownHandler
     }
 
     private void UpdateText()
-    {
-        priceText.text = data.Price.ToString();
+    { 
+        float discount = GameManager.Instance.discount;
+        discount = PlayerPrefs.GetFloat("Discount", 0f);
+        float finalPrice = data.Price * (1 - discount);
+        priceText.text = Mathf.RoundToInt(finalPrice).ToString();
     }
 }

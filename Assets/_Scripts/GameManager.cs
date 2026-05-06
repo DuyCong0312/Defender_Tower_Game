@@ -1,64 +1,65 @@
-using TMPro;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    [SerializeField] private GameObject panel;
-    [SerializeField] private TextMeshProUGUI winText;
-    [SerializeField] private TextMeshProUGUI coinAmountText;
     public float coinAmount = 100f;
+
+    public float discount = 0f;
+    private int award = 100;
+
+    public static System.Action<float> OnCoinChanged;
+    public static System.Action<int> OnGoldChanged;
+    public static System.Action<int> OnWin;
+    public static System.Action OnLose;
+
+    private ResourceManager rm;
 
     void Awake()
     {
         Instance = this;
     }
 
-    private void Start()
+    void Start()
     {
-        if (DebugData.coin > 0)
-        {
-            coinAmount = DebugData.coin;
-        }
+        rm = new ResourceManager();
 
-        UpdateText();
+        discount = PlayerPrefs.GetFloat("Discount", 0f);
+
+        OnCoinChanged?.Invoke(coinAmount);
+        OnGoldChanged?.Invoke(rm.GetGold());
     }
 
     public void Win()
     {
-        panel.SetActive(true);
-        winText.text = "You Win";
+        rm.AddGold(award);
+
+        OnWin?.Invoke(award);
+        OnGoldChanged?.Invoke(rm.GetGold());
     }
 
     public void Lose()
     {
-        panel.SetActive(true);
-        winText.text = "You Lose";
+        OnLose?.Invoke();
     }
 
-    public void IncreaseCoinAmount(float coinAmount)
+    public void IncreaseCoinAmount(float amount)
     {
-        this.coinAmount += coinAmount;
-        UpdateText();
+        coinAmount += amount;
+        OnCoinChanged?.Invoke(coinAmount);
     }
 
     public void DecreaseCoinAmount(float price)
     {
-        this.coinAmount -= price;
-        UpdateText();
+        coinAmount -= price * (1 - discount);
+        OnCoinChanged?.Invoke(coinAmount);
     }
 
-    private void UpdateText()
+    public void SaveAndSetDiscount(float discount)
     {
-        coinAmountText.text = coinAmount.ToString();
-    }
-
-
-    // Test
-    public void SetCoin(float coinAmount)
-    {
-        this.coinAmount = coinAmount;
-        UpdateText();
+        this.discount = discount;
+        PlayerPrefs.SetFloat("Discount", discount);
+        PlayerPrefs.Save();
     }
 }
