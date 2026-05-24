@@ -8,6 +8,7 @@ public class BaseCharacter : MonoBehaviour
     [Header("Charater Role")]
     public bool defender = false;
     [SerializeField] protected CharacterSO characterSO;
+    [SerializeField] protected bool canMove = true;
 
     protected bool isBusy = false;
 
@@ -18,6 +19,9 @@ public class BaseCharacter : MonoBehaviour
     }
     protected virtual void OnEnable()
     {
+        characterSO.GetStatData(
+            characterSO.DisplayName + "Attack",
+            characterSO.DisplayName + "Health");
         characterAnimation.OnAnimationEvent += HandleAnimationEvent;
         characterAnimation.OnAnimationComplete += HandleAnimationComplete;
     }
@@ -25,6 +29,7 @@ public class BaseCharacter : MonoBehaviour
     protected virtual void Update()
     {
         if (isBusy) return;
+        if (!canMove) return;
 
         if (characterAnimation.GetCurrentState() == CharacterState.Die ||
             characterAnimation.GetCurrentState() == CharacterState.TakeDamage) return;
@@ -48,6 +53,11 @@ public class BaseCharacter : MonoBehaviour
         }
     }
 
+    public virtual void SetActiveCharacter(bool active)
+    {
+        canMove = active;
+    }
+
     protected virtual void Move()
     {
         characterAnimation.SetState(CharacterState.Run);
@@ -66,6 +76,8 @@ public class BaseCharacter : MonoBehaviour
         {
             foreach (var enemy in checkHit.GetHits())
             {
+                if (enemy == null) continue;
+
                 BaseHealth enemyHealth = enemy.GetComponentInParent<BaseHealth>();
                 if (enemyHealth != null)
                 {

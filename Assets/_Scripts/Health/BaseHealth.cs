@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.TextCore.Text;
 
 public class BaseHealth : MonoBehaviour
 {
@@ -15,7 +16,11 @@ public class BaseHealth : MonoBehaviour
     protected virtual void Awake()
     {
         coll = GetComponentInChildren<Collider2D>();
-        maxHealth = placeableSO.HealthAmount;
+        if(PlayerPrefs.HasKey(placeableSO.DisplayName + "Health"))
+        {
+            placeableSO.healthAmount = PlayerPrefs.GetInt(placeableSO.DisplayName + "Health");
+        }
+        maxHealth = placeableSO.healthAmount;
     }
 
     protected virtual void Start()

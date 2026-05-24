@@ -16,9 +16,13 @@ public class DragHandler : MonoBehaviour
     private List<SpriteRenderer> tileRenderers = new();
     private Camera mainCam;
 
+    private bool isMovingExisting = false;
+    private PlacedObject existingPlaced = null;
+    private List<Tiles> savedOwnedTiles = null;
+
     public bool IsDragging => currentSO != null;
 
-    void Awake()
+    private void Awake()
     {
         Instance = this;
         mainCam = Camera.main;
@@ -34,7 +38,32 @@ public class DragHandler : MonoBehaviour
         ghostObject.name = "Ghost_" + so.DisplayName;
     }
 
-    void Update()
+    public void StartMoveExisting(PlacedObject placed)
+    {
+        if (IsDragging) CancelDrag();
+
+        currentSO = placed.Data;
+        isMovingExisting = true;
+        existingPlaced = placed;
+
+        savedOwnedTiles = new List<Tiles>(placed.OwnedTiles);
+
+        placed.RemoveFromGrid();
+
+        ghostObject = placed.gameObject;
+        SetGhostAlpha(ghostObject, 0.2f);
+
+        BaseCharacter character = placed.GetComponent<BaseCharacter>();
+        Collider2D characterColl = placed.GetComponentInChildren<Collider2D>();
+        if (character != null && characterColl != null)
+        {
+            character.SetActiveCharacter(false);
+            characterColl.enabled = false;
+        }
+        GridManager.Instance.ShowAllTiles();
+    }
+
+    private void Update()
     {
         if (!IsDragging) return;
 
@@ -72,7 +101,7 @@ public class DragHandler : MonoBehaviour
         }
     }
 
-    void UpdateHighlight(Tiles originTile)
+    private void UpdateHighlight(Tiles originTile)
     {
         ClearHighlight();
         if (originTile == null) return;
@@ -91,7 +120,7 @@ public class DragHandler : MonoBehaviour
         }
     }
 
-    void ClearHighlight()
+    private void ClearHighlight()
     {
         foreach (var sr in tileRenderers)
             if (sr != null)
@@ -103,38 +132,83 @@ public class DragHandler : MonoBehaviour
         highlightedTiles.Clear();
     }
 
-    void ConfirmDrop(Tiles originTile)
+    private void ConfirmDrop(Tiles originTile)
     {
         Vector3 centerPos = CalculateCenterPosition(originTile, currentSO.GridSize);
+        var lockedTiles = GridManager.Instance.LockArea(originTile, currentSO.GridSize, currentSO.ID);
 
-        var placed = Instantiate(currentSO.Prefab, centerPos, Quaternion.identity);
+        if (isMovingExisting)
+        {
+            ghostObject.transform.position = centerPos;
+            SetGhostAlpha(ghostObject, 1f);
+            existingPlaced.Initialize(currentSO, lockedTiles);
 
-        var placedObj = placed.GetComponent<PlacedObject>();
-        placedObj.Initialize(
-            currentSO,
-            GridManager.Instance.LockArea(originTile, currentSO.GridSize, currentSO.ID)
-        );
+            BaseCharacter character = ghostObject.GetComponent<BaseCharacter>();
+            Collider2D characterColl = ghostObject.GetComponentInChildren<Collider2D>();
+            if (character != null && characterColl != null)
+            {
+                character.SetActiveCharacter(true);
+                characterColl.enabled = true;
+            }
 
+            savedOwnedTiles = null;
+        }
+        else
+        {
+            var placed = Instantiate(currentSO.Prefab, centerPos, Quaternion.identity);
+            placed.GetComponent<PlacedObject>().Initialize(currentSO, lockedTiles);
+            GameManager.Instance.DecreaseCoinAmount(currentSO.Price);
+        }
         GridManager.Instance.HideAllTiles();
-        GameManager.Instance.DecreaseCoinAmount(currentSO.Price);
         CleanupDrag();
     }
 
     public void CancelDrag()
     {
-        CleanupDrag();
-    }
+        if (isMovingExisting && existingPlaced != null && savedOwnedTiles != null)
+        {
+            Vector3 oldCenter = CalculateCenterPosition(savedOwnedTiles[0], currentSO.GridSize);
+            existingPlaced.transform.position = oldCenter;
+            SetGhostAlpha(ghostObject, 1f);
 
-    void CleanupDrag()
-    {
+            GridManager.Instance.LockArea(savedOwnedTiles[0], currentSO.GridSize, currentSO.ID);
+            existingPlaced.Initialize(currentSO, savedOwnedTiles);
+
+            BaseCharacter character = ghostObject.GetComponent<BaseCharacter>();
+            Collider2D characterColl = ghostObject.GetComponentInChildren<Collider2D>();
+            if (character != null && characterColl != null)
+            {
+                character.SetActiveCharacter(true);
+                characterColl.enabled = true;
+            }
+
+            savedOwnedTiles = null;
+        }
+        else
+        {
+            if (ghostObject != null) Destroy(ghostObject);
+        }
+
         ClearHighlight();
-        if (ghostObject != null) Destroy(ghostObject);
         GridManager.Instance.HideAllTiles();
         ghostObject = null;
         currentSO = null;
+        isMovingExisting = false;
+        existingPlaced = null;
     }
 
-    Vector3 CalculateCenterPosition(Tiles origin, Vector2Int size)
+    private void CleanupDrag()
+    {
+        ClearHighlight();
+        if (!isMovingExisting && ghostObject != null) Destroy(ghostObject);
+        GridManager.Instance.HideAllTiles();
+        ghostObject = null;
+        currentSO = null;
+        isMovingExisting = false;
+        existingPlaced = null;
+    }
+
+    private Vector3 CalculateCenterPosition(Tiles origin, Vector2Int size)
     {
         var tilesInArea = GridManager.Instance.GetTilesInArea(origin, size);
         if (tilesInArea.Count == 0) return origin.transform.position;
@@ -146,7 +220,7 @@ public class DragHandler : MonoBehaviour
         return sum / tilesInArea.Count;
     }
 
-    void SetGhostAlpha(GameObject obj, float alpha)
+    private void SetGhostAlpha(GameObject obj, float alpha)
     {
         foreach (var sr in obj.GetComponentsInChildren<SpriteRenderer>())
         {

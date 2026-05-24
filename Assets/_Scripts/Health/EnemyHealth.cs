@@ -58,6 +58,7 @@ public class EnemyHealth : BaseHealth
 
     protected override void Die()
     {
+        healthBar.gameObject.SetActive(false);
         characterAnimation.SetState(CharacterState.Die);
     }
 

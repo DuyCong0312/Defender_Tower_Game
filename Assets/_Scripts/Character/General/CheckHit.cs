@@ -47,6 +47,7 @@ public class CheckHit : MonoBehaviour
 
     public virtual List<Collider2D> GetHits()
     {
+        hitResults.RemoveAll(x => x == null);
         return hitResults;
     }
 

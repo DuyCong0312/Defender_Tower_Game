@@ -5,30 +5,6 @@ public class XaThu : BaseCharacter
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform spawnPos;
 
-    protected override void Update()
-    {
-        if (characterAnimation.GetCurrentState() == CharacterState.Die ||
-            characterAnimation.GetCurrentState() == CharacterState.TakeDamage) return;
-
-        checkHit.CheckEnemy();
-
-        if (checkHit.hasTarget && defender)
-        {
-            Attack();
-        }
-        if (!defender)
-        {
-            if (!checkHit.hasTarget)
-            {
-                Move();
-            }
-            else
-            {
-                Attack();
-            }
-        }
-    }
-
     protected override void HandleAnimationEvent(string eventName)
     {
         if (eventName == CONSTANT.xaThuAttack)

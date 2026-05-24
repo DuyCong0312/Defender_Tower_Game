@@ -9,11 +9,11 @@ public class KiemSi3 : BaseCharacter
     {
         timeToUseSkill += Time.deltaTime;
         if (isBusy) return;
+        if (!canMove) return;
 
         if (characterAnimation.GetCurrentState() == CharacterState.Die ||
             characterAnimation.GetCurrentState() == CharacterState.TakeDamage) return;
 
-        Debug.Log(characterAnimation.GetCurrentState());
         checkHit.CheckEnemy();
 
         if (checkHit.hasTarget && defender)

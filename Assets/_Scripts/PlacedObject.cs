@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 
 public class PlacedObject : MonoBehaviour
@@ -16,5 +16,18 @@ public class PlacedObject : MonoBehaviour
     public void RemoveFromGrid()
     {
         GridManager.Instance.UnlockArea(OwnedTiles);
+    }
+
+    public void MoveToNewPos()
+    {
+        if (DragHandler.Instance.IsDragging) return;
+        DragHandler.Instance.StartMoveExisting(this);
+    }
+
+    public void Sell()
+    {
+        GameManager.Instance.IncreaseCoinAmount(Data.Price / 2);
+        RemoveFromGrid();
+        Destroy(this.gameObject);
     }
 }

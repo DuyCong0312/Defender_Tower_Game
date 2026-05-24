@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -7,18 +8,30 @@ public class GameManager : MonoBehaviour
     public float coinAmount = 100f;
 
     public float discount = 0f;
+    public int multipleShard = 1;
     private int award = 100;
 
-    public static System.Action<float> OnCoinChanged;
-    public static System.Action<int> OnGoldChanged;
-    public static System.Action<int> OnWin;
-    public static System.Action OnLose;
+    public event Action<float> OnCoinChanged;
+    public event Action<int> OnGoldChanged;
+    public event Action<int> OnWin;
+    public event Action OnLose;
+
+    [SerializeField] private LevelManager levelManager;
+
+    [SerializeField] private CharacterSO[] characterSO;
 
     private ResourceManager rm;
 
     void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+        {
+            Instance = this;
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     void Start()
@@ -26,6 +39,7 @@ public class GameManager : MonoBehaviour
         rm = new ResourceManager();
 
         discount = PlayerPrefs.GetFloat("Discount", 0f);
+        multipleShard = PlayerPrefs.GetInt("MultipleShard", 1);
 
         OnCoinChanged?.Invoke(coinAmount);
         OnGoldChanged?.Invoke(rm.GetGold());
@@ -34,14 +48,20 @@ public class GameManager : MonoBehaviour
     public void Win()
     {
         rm.AddGold(award);
-
         OnWin?.Invoke(award);
         OnGoldChanged?.Invoke(rm.GetGold());
+        levelManager.UnlockNextLevel();
+        foreach (CharacterSO character in characterSO)
+        {
+            character.AddCharacterShard(1 * multipleShard, character.DisplayName + "Shard");
+        }
+        ResetBuff();
     }
 
     public void Lose()
     {
         OnLose?.Invoke();
+        ResetBuff();
     }
 
     public void IncreaseCoinAmount(float amount)
@@ -60,6 +80,25 @@ public class GameManager : MonoBehaviour
     {
         this.discount = discount;
         PlayerPrefs.SetFloat("Discount", discount);
+        PlayerPrefs.Save();
+    }
+
+    public void SaveAndSetMultipleShard(int amount)
+    {
+        this.multipleShard = amount;
+        PlayerPrefs.SetInt("MultipleShard", multipleShard);
+        PlayerPrefs.Save();
+    }
+
+    // need refactor
+    private void ResetBuff()
+    {
+        discount = 0f;
+        multipleShard = 1;
+
+        PlayerPrefs.DeleteKey("Discount");
+        PlayerPrefs.DeleteKey("MultipleShard");
+
         PlayerPrefs.Save();
     }
 }

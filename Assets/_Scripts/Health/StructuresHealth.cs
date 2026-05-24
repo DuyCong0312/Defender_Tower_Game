@@ -21,7 +21,6 @@ public class StructuresHealth : BaseHealth
         if (currentHealth <= 0)
         {
             isDead = true;
-            coll.enabled = false;
             Die();
         }
 
@@ -30,6 +29,7 @@ public class StructuresHealth : BaseHealth
 
     protected override void Die()
     {
+        healthBar.gameObject.SetActive(false);
         placedObject.RemoveFromGrid();
         Destroy(gameObject);
     }

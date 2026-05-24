@@ -9,6 +9,9 @@ public class Projectile : MonoBehaviour
     [SerializeField] private float speed = 10f;
     private GameObject owner;
 
+    private Renderer sr;
+    private Camera cam;
+
     public void SetOwner(GameObject owner)
     {
         this.owner = owner;
@@ -17,6 +20,8 @@ public class Projectile : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        sr = GetComponentInChildren<Renderer>();
+        cam = Camera.main;
         ProjectileMove();
     }
 
@@ -56,7 +61,10 @@ public class Projectile : MonoBehaviour
 
     private void WayToDestroy()
     {
-        if (timeExist <= 0)
+        Bounds bounds = sr.bounds;
+        Vector3 min = cam.WorldToViewportPoint(bounds.min);
+        Vector3 max = cam.WorldToViewportPoint(bounds.max);
+        if (max.x < 0 || min.x > 1 || max.y < 0 || min.y > 1)
         {
             Destroy(this.gameObject);
         }

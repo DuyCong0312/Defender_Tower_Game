@@ -7,65 +7,53 @@ using UnityEngine.UI;
 public class BuffManager : MonoBehaviour
 {
     [SerializeField] private GameObject buffDetailsPanel;
-    [SerializeField] private GameObject resultBuyPanel;
     [SerializeField] private Button cancelButton;
     [SerializeField] private Button buyButton;
-    [SerializeField] private TextMeshProUGUI resourceText;
-    [SerializeField] private TextMeshProUGUI resultBuyText;
+    [SerializeField] private BuyProgress buyProgress;
+    [SerializeField] private TextMeshProUGUI buffDetail;
 
-    ResourceManager rm;
+
+    private BuffSO buffSO;
+
+    public void SetBuffSO(BuffSO buffSO)
+    {
+        this.buffSO = buffSO;
+    }
 
     private void Start()
     {
-        rm = new ResourceManager();
-        resultBuyPanel.SetActive(false);
         HideBuffDetailsPanel(); 
-        cancelButton.onClick.AddListener(() => CancelButtonOnClick());
-        buyButton.onClick.AddListener(() => BuyDiscountBuff());
-        UpdateResourceText();
+        cancelButton.onClick.AddListener(() => HideBuffDetailsPanel());
+        buyButton.onClick.AddListener(() => {
+            buyProgress.StartBuyProcess();
+            if (buyProgress.canBuy)
+            {
+                ApplyTheBuff();
+            }
+            });
     }
 
-    private void CancelButtonOnClick()
+    public void ShowBuffDetailPanel()
     {
-        HideBuffDetailsPanel();
+        buffDetailsPanel.SetActive(true);
+        buffDetail.text = buffSO.BuffDetail;
     }
 
-    private void BuyDiscountBuff()
-    {
-        StartCoroutine(BuyProcess());
-    }
-
-    private void HideBuffDetailsPanel()
+    public void HideBuffDetailsPanel()
     {
         buffDetailsPanel.SetActive(false);
     }
 
-    private void UpdateResourceText()
+    private void ApplyTheBuff()
     {
-        resourceText.text = rm.GetGold().ToString();
+        switch (buffSO.BuffID)
+        {
+            case 0:
+                GameManager.Instance.SaveAndSetDiscount(0.5f);
+                break;
+            case 1:
+                GameManager.Instance.SaveAndSetMultipleShard(10);
+                break;
+        }
     }
-
-    private IEnumerator BuyProcess()
-    {
-        if (rm.SpendGold(100))
-        {
-            resultBuyPanel.SetActive(true);
-            resultBuyText.text = "Success";
-
-            UpdateResourceText();
-            GameManager.Instance.SaveAndSetDiscount(0.5f);
-            HideBuffDetailsPanel();
-
-            yield return new WaitForSeconds(0.5f);
-            resultBuyPanel.SetActive(false);
-        }
-        else
-        {
-            resultBuyPanel.SetActive(true);
-            resultBuyText.text = "Not Enough Gold";
-            yield return new WaitForSeconds(0.5f);
-            resultBuyPanel.SetActive(false);
-            HideBuffDetailsPanel();
-        }
-    } 
 }
