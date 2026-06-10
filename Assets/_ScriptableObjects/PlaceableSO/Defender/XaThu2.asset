@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0791ba0b8967a8845946a9f872abcb5c, type: 3}
-  m_Name: XaThu3
+  m_Name: XaThu2
   m_EditorClassIdentifier: Assembly-CSharp::CharacterSO
-  id: 5
-  displayName: XaThu3
-  price: 500
-  avatar: {fileID: 2209469388415593330, guid: 880f60de611c9e54d890f81687e45339, type: 3}
-  avatarUI: {fileID: 463290268288946771, guid: 47ae5e8b2e373ff4892b910b18e053df, type: 3}
-  prefab: {fileID: 2229216783158755544, guid: 411ba6aa931ca2d46a8d8c1e72754a4d, type: 3}
+  id: 9
+  displayName: XaThu2
+  price: 150
+  avatar: {fileID: 8220805813629080422, guid: 7b22fa0ec994d924c97234bdc60ef7a4, type: 3}
+  avatarUI: {fileID: 4634721929318587537, guid: 118585cc3b41a5041bc2b3c0be449aa4, type: 3}
+  prefab: {fileID: 4816336808589253875, guid: 53b65ea4c4fa670419acb9aacc322129, type: 3}
   gridSize: {x: 1, y: 1}
-  healthAmount: 25
+  healthAmount: 20
   attackSpeed: 1
   movementSpeed: 2
   attackDamage: 5

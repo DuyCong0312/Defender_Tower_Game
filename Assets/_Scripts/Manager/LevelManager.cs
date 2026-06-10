@@ -6,7 +6,6 @@ public class LevelManager : MonoBehaviour
     [SerializeField] private LevelDatabase levelDatabase;
 
     private LevelSO currentLevel;
-    private const string UnlockedLevelKey = "UnlockedLevel";
 
     private void Awake()
     {
@@ -20,15 +19,11 @@ public class LevelManager : MonoBehaviour
 
     public LevelSO GetCurrentLevel(LevelDatabase db)
     {
-        string currentScene = SceneManager.GetActiveScene().name; 
+        string currentScene = SceneManager.GetActiveScene().name;
         foreach (LevelSO l in db.levels)
         {
-            if (l.sceneName == currentScene)
-            {
-                return l;
-            }
+            if (l.sceneName == currentScene) return l;
         }
-
         return null;
     }
 
@@ -40,15 +35,15 @@ public class LevelManager : MonoBehaviour
     public void UnlockLevel(int completedLevelNumber, int totalLevels)
     {
         int next = completedLevelNumber + 1;
-        if (next > GetUnlockedLevel() && next <= totalLevels)
+        int unlocked = SaveManager.GetUnlockedLevel();
+        if (next > unlocked && next <= totalLevels)
         {
-            PlayerPrefs.SetInt(UnlockedLevelKey, next);
-            PlayerPrefs.Save();
+            SaveManager.SetUnlockedLevel(next);
         }
     }
 
     public int GetUnlockedLevel()
     {
-        return PlayerPrefs.GetInt(UnlockedLevelKey, 1);
+        return SaveManager.GetUnlockedLevel();
     }
 }

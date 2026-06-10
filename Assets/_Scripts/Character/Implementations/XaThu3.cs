@@ -22,7 +22,9 @@ public class XaThu3 : BaseCharacter
             Projectile projectiles = prefabs.GetComponent<Projectile>();
             if (projectiles != null)
             {
-                projectiles.SetOwner(this.gameObject);
+                var prog = SaveManager.LoadCharacter(characterSO.ID);
+                float damage = prog != null ? prog.attackDamage : characterSO.AttackDamage;
+                projectiles.SetOwner(this.gameObject, damage);
             }
         }
     }

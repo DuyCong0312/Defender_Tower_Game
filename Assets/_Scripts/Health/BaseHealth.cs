@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.TextCore.Text;
 
 public class BaseHealth : MonoBehaviour
 {
@@ -16,11 +15,24 @@ public class BaseHealth : MonoBehaviour
     protected virtual void Awake()
     {
         coll = GetComponentInChildren<Collider2D>();
-        if(PlayerPrefs.HasKey(placeableSO.DisplayName + "Health"))
+
+        var characterSO = placeableSO as CharacterSO;
+        if (characterSO != null)
         {
-            placeableSO.healthAmount = PlayerPrefs.GetInt(placeableSO.DisplayName + "Health");
+            var prog = SaveManager.LoadCharacter(characterSO.ID);
+            if (prog != null)
+            {
+                maxHealth = prog.currentHealth;
+            }
+            else
+            {
+                maxHealth = placeableSO.healthAmount;
+            }
         }
-        maxHealth = placeableSO.healthAmount;
+        else
+        {
+            maxHealth = placeableSO.healthAmount;
+        }
     }
 
     protected virtual void Start()
@@ -42,11 +54,6 @@ public class BaseHealth : MonoBehaviour
     protected virtual void HandleAnimationEvent(string animName)
     {
         return;
-
-        if (animName == CONSTANT.dieAnimation)
-        {
-            return;
-        }
     }
 
     protected virtual void OnDestroy()

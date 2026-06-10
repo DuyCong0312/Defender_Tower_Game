@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8559074417602901204}
   - component: {fileID: 4090380829102327265}
   m_Layer: 0
-  m_Name: XaThu3AvatarUI
+  m_Name: XaThu5AvatarUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -24,22 +24,16 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
-        if (Instance == null)
-        {
-            Instance = this;
-        }
-        else
-        {
-            Destroy(gameObject);
-        }
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
     void Start()
     {
         rm = new ResourceManager();
 
-        discount = PlayerPrefs.GetFloat("Discount", 0f);
-        multipleShard = PlayerPrefs.GetInt("MultipleShard", 1);
+        discount = SaveManager.GetDiscount();
+        multipleShard = SaveManager.GetMultipleShard();
 
         OnCoinChanged?.Invoke(coinAmount);
         OnGoldChanged?.Invoke(rm.GetGold());
@@ -51,10 +45,14 @@ public class GameManager : MonoBehaviour
         OnWin?.Invoke(award);
         OnGoldChanged?.Invoke(rm.GetGold());
         levelManager.UnlockNextLevel();
+
         foreach (CharacterSO character in characterSO)
         {
-            character.AddCharacterShard(1 * multipleShard, character.DisplayName + "Shard");
+            var progress = SaveManager.LoadCharacter(character.ID) ?? character.CreateDefaultProgress();
+            progress.shards += 1 * multipleShard;
+            SaveManager.SaveCharacter(progress);
         }
+
         ResetBuff();
     }
 
@@ -79,15 +77,13 @@ public class GameManager : MonoBehaviour
     public void SaveAndSetDiscount(float discount)
     {
         this.discount = discount;
-        PlayerPrefs.SetFloat("Discount", discount);
-        PlayerPrefs.Save();
+        SaveManager.SetDiscount(discount);
     }
 
     public void SaveAndSetMultipleShard(int amount)
     {
         this.multipleShard = amount;
-        PlayerPrefs.SetInt("MultipleShard", multipleShard);
-        PlayerPrefs.Save();
+        SaveManager.SetMultipleShard(amount);
     }
 
     // need refactor
@@ -96,9 +92,17 @@ public class GameManager : MonoBehaviour
         discount = 0f;
         multipleShard = 1;
 
-        PlayerPrefs.DeleteKey("Discount");
-        PlayerPrefs.DeleteKey("MultipleShard");
+        SaveManager.SetDiscount(0f);
+        SaveManager.SetMultipleShard(1);
+    }
 
-        PlayerPrefs.Save();
+    public void PersistAll()
+    {
+        SaveManager.PersistToDisk();
+    }
+
+    private void OnApplicationQuit()
+    {
+        PersistAll();
     }
 }

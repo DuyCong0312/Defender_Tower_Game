@@ -4239,6 +4239,7 @@ MonoBehaviour:
   characterSO:
   - {fileID: 11400000, guid: 448450b766201364a95885466c367d7c, type: 2}
   - {fileID: 11400000, guid: 5599d1d390e1dfc4eb07eefdf6ceaa37, type: 2}
+  - {fileID: 11400000, guid: d350464dd0b660542b2aeae7d06d22a0, type: 2}
   - {fileID: 11400000, guid: ecc0c10d1ba201940a9e526e22253327, type: 2}
   characterDetailUI: {fileID: 1739532128}
   buttonMenu: {fileID: 2134117140}

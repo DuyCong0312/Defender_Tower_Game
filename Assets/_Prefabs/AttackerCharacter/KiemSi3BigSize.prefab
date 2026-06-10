@@ -94,7 +94,7 @@ Transform:
   m_GameObject: {fileID: 3416706021752819696}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8, y: 0.65, z: 0}
+  m_LocalPosition: {x: 0.79, y: 0.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -114,7 +114,7 @@ GameObject:
   - component: {fileID: 8689275562994651574}
   - component: {fileID: 3512691663378962053}
   m_Layer: 8
-  m_Name: KiemSi3
+  m_Name: KiemSi3BigSize
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -130,7 +130,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.8, y: 1.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 9076067261018350228}
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   healthBar: {fileID: 977370495391281990}
-  placeableSO: {fileID: 11400000, guid: 51f2b1a6c567a7242bd64abd68818418, type: 2}
+  placeableSO: {fileID: 11400000, guid: 3ceaf78a77ce1334b9fd4197c31c847c, type: 2}
 --- !u!114 &8689275562994651574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KiemSi3
   defender: 0
-  characterSO: {fileID: 11400000, guid: 51f2b1a6c567a7242bd64abd68818418, type: 2}
+  characterSO: {fileID: 11400000, guid: 3ceaf78a77ce1334b9fd4197c31c847c, type: 2}
   canMove: 1
   ReduceSkillTime: 2
 --- !u!114 &3512691663378962053
@@ -198,7 +198,7 @@ MonoBehaviour:
     m_Bits: 192
   hasTarget: 0
   attackPos: {fileID: 741068811886358979}
-  attackAngle: 0.55
+  attackAngle: 1.1
 --- !u!1001 &984618927612015544
 PrefabInstance:
   m_ObjectHideFlags: 0

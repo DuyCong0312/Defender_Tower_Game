@@ -11,14 +11,20 @@ public class ShowShopItems : MonoBehaviour
     [SerializeField] private BuffManager buffManager;
     [SerializeField] private BuyProgress buyProgress;
 
+    [Header("Panel")]
     [SerializeField] private GameObject itemsBuffListHolder;
     [SerializeField] private GameObject shardShop;
     [SerializeField] private GameObject itemsShardListHolder;
+
+    [Header("Prefabs")]
     [SerializeField] private GameObject itemsPrefab;
 
+    [Header("Button")]
     [SerializeField] private Button buffShopButton;
     [SerializeField] private Button shardShopButton;
+    [SerializeField] private Button refreshButton;
 
+    [Header("Text")]
     [SerializeField] private TextMeshProUGUI refreshTime;
 
     private List<GameObject> shardItems = new List<GameObject>();
@@ -34,7 +40,12 @@ public class ShowShopItems : MonoBehaviour
         CheckShopRefresh();
 
         buffShopButton.onClick.AddListener(ShowBuffShopItems);
-        shardShopButton.onClick.AddListener(ShowChracterSharpItems); 
+        shardShopButton.onClick.AddListener(ShowChracterSharpItems);
+        refreshButton.onClick.AddListener(() =>
+        {
+            buyProgress.StartBuyProcess();
+            RefreshShardShop();
+        });
         ShowBuffShopItems();
     }
 
@@ -63,7 +74,6 @@ public class ShowShopItems : MonoBehaviour
         {
             int index = i;
             GameObject buffButton = Instantiate(itemsPrefab, itemsBuffListHolder.transform);
-            //Instantiate(buffSO[i].BuffIcon, buffButton.transform);
             ItemsShopUI ui = buffButton.GetComponent<ItemsShopUI>();
             ui.characterSharpAmount.text = "";
             ui.itemsPrice.text = buffSO[i].Price.ToString();
@@ -84,11 +94,10 @@ public class ShowShopItems : MonoBehaviour
         {
             int index = i;
             GameObject characterButton = Instantiate(itemsPrefab, itemsShardListHolder.transform);
-            GameObject characterAvatar = Instantiate(characterSO[i].AvatarUI, characterButton.transform); 
+            GameObject characterAvatar = Instantiate(characterSO[i].AvatarUI, characterButton.transform);
             characterAvatar.transform.SetSiblingIndex(0);
             ItemsShopUI ui = characterButton.GetComponent<ItemsShopUI>();
 
-            // need refactor
             string shardKey = CHAR_SHARD_KEY + index;
             string boughtKey = CHAR_BOUGHT_KEY + index;
 
@@ -121,10 +130,12 @@ public class ShowShopItems : MonoBehaviour
                     buyProgress.StartBuyProcess();
                     if (buyProgress.canBuy)
                     {
-                        characterSO[index].AddCharacterShard(number, characterSO[index].DisplayName + "Shard");
-                        button.interactable = false; 
-                        PlayerPrefs.SetInt(boughtKey, 1);
+                        var prog = SaveManager.LoadCharacter(characterSO[index].ID) ?? characterSO[index].CreateDefaultProgress();
+                        prog.shards += number;
+                        SaveManager.SaveCharacter(prog);
 
+                        button.interactable = false;
+                        PlayerPrefs.SetInt(boughtKey, 1);
                         PlayerPrefs.Save();
                     }
                 });
@@ -132,7 +143,6 @@ public class ShowShopItems : MonoBehaviour
         }
     }
 
-    // need refactor
     private void RefreshShardShop()
     {
         for (int i = 0; i < shardItems.Count; i++)

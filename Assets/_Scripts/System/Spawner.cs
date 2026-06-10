@@ -37,11 +37,10 @@ public class Spawner : MonoBehaviour
 
     [SerializeField] private float minSpawnDelay = 1f;
     [SerializeField] private float maxSpawnDelay = 5f;
-    [SerializeField] private float visibilityCheckInterval = 0.2f;
 
-    public List<float> waveMarkerPoints = new List<float>();
-    private List<GameObject> currentEnemies = new List<GameObject>();
-    private Camera cam;
+    public List<float> waveMarkerPoints = new List<float>(); 
+    private List<GameObject> currentAmbushEnemies = new List<GameObject>();
+    private List<GameObject> currentWaveEnemies = new List<GameObject>();
 
     private float[] ambushTimers;
     private float[] ambushIntervals;
@@ -58,7 +57,6 @@ public class Spawner : MonoBehaviour
     private void Start()
     {
         int waveCount = waves.Length;
-        cam = Camera.main;
         for (int i = 0; i < waveCount; i++)
         {
             float point = (float)(i + 1) / waveCount;
@@ -121,7 +119,7 @@ private void Update()
         }
 
         Wave wave = waves[currentWaveIndex];
-        if (!wave.hasTriggered  && currentEnemies.Count == 0 && wave.ambushPool.Count == 0)
+        if (!wave.hasTriggered  && currentAmbushEnemies.Count == 0 && wave.ambushPool.Count == 0)
         {
             TriggerWave(currentWaveIndex);
             currentWaveIndex++;
@@ -144,7 +142,7 @@ private void Update()
             SpawnEnemy(wave.ambushPool);
             if (wave.wavePool.Count > 0)
             {
-                SpawnEnemy(wave.wavePool, true, wave);
+                SpawnEnemy(wave.wavePool, true, true, wave);
             }
             ambushTimers[currentWaveIndex] = 0f;
             ambushIntervals[currentWaveIndex] = Random.Range(minSpawnDelay, maxSpawnDelay);
@@ -158,7 +156,7 @@ private void Update()
         foreach (var wave in waves)
             if (!wave.isBurstDone) return;
 
-        if (currentEnemies.Count == 0)
+        if (currentAmbushEnemies.Count == 0 && currentWaveEnemies.Count == 0)
         {
             gameEnded = true;
             GameManager.Instance.Win();
@@ -192,13 +190,13 @@ private void Update()
         UIManager.Instance.StartAnnoucement(wave.waveName + " " + "Starts");
         while (wave.wavePool.Count > 0)
         {
-            SpawnEnemy(wave.wavePool);
+            SpawnEnemy(wave.wavePool, true);
             yield return new WaitForSeconds(wave.waveBurstSpawnDelay);
         }
         wave.isBurstDone = true;
     }
 
-    private void SpawnEnemy(List<GameObject> pool, bool inactive = false, Wave wave = null)
+    private void SpawnEnemy(List<GameObject> pool,bool isWaveEnemy = false, bool waveInactive = false, Wave wave = null)
     {
         int index = Random.Range(0, pool.Count);
         GameObject prefab = pool[index];
@@ -207,7 +205,7 @@ private void Update()
         Transform spawnPoint = spawnPos[Random.Range(0, spawnPos.Length)];
         GameObject enemy = Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
 
-        if (inactive)
+        if (waveInactive)
         {
             BaseCharacter character = enemy.GetComponent<BaseCharacter>();
 
@@ -218,7 +216,15 @@ private void Update()
                 wave.waitingEnemies.Add(enemy);
         }
 
-        StartCoroutine(TrackEnemyVisibility(enemy));
+        if (isWaveEnemy)
+        {
+            currentWaveEnemies.Add(enemy);
+        }
+        else
+        {
+            currentAmbushEnemies.Add(enemy);
+        }
+
         spawnedEnemies++;
         UIManager.Instance.UpdateProgressSlider();
 
@@ -227,34 +233,10 @@ private void Update()
             health.OnDeath += RemoveEnemy;
     }
 
-    private IEnumerator TrackEnemyVisibility(GameObject enemy)
-    {
-        while (enemy != null)
-        {
-            if (IsInViewport(enemy))
-            { 
-                currentEnemies.Add(enemy);
-                yield break;
-            }
-            yield return new WaitForSeconds(visibilityCheckInterval);
-        }
-    }
-
-    private bool IsInViewport(GameObject enemy)
-    {
-        Renderer sr = enemy.GetComponentInChildren<Renderer>();
-        if (sr == null) return false;
-
-        Bounds bounds = sr.bounds;
-        Vector3 min = cam.WorldToViewportPoint(bounds.min);
-        Vector3 max = cam.WorldToViewportPoint(bounds.max);
-
-        return min.x >= 0 && max.x <= 1 && min.y >= 0 && max.y <= 1;
-    }
-
     private void RemoveEnemy(GameObject enemy)
     {
-        currentEnemies.Remove(enemy);
+        currentAmbushEnemies.Remove(enemy);
+        currentWaveEnemies.Remove(enemy);
 
         foreach (var wave in waves)
         {

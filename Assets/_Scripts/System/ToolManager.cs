@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,8 @@ public class ToolManager : MonoBehaviour
     public static ToolManager Instance { get; private set; }
 
     public ToolType currentTool = ToolType.None;
+
+    public event Action OnToolDone;
     private Camera cam;
 
     private void Awake() 
@@ -34,28 +37,33 @@ public class ToolManager : MonoBehaviour
         Vector2 worldPos = cam.ScreenToWorldPoint(mouse.position.ReadValue());
 
         Collider2D hit = Physics2D.OverlapPoint(worldPos);
-        if (hit == null) return;
 
-        PlacedObject hitObject = hit.GetComponentInParent<PlacedObject>();
+        if (hit == null)
+        {
+            FinishTool();
+            return;
+        }
+
+        PlacedObject placedObject = hit.GetComponentInParent<PlacedObject>();
+
+        if (placedObject == null || placedObject.Data is not CharacterSO)
+        {
+            FinishTool();
+            return;
+        }
+
         switch (currentTool)
         {
             case ToolType.Move:
-                if(hitObject != null)
-                {
-                    if (hitObject.Data is not CharacterSO) break;
-                    hitObject.MoveToNewPos();
-                    ClearTool();
-                }
+                placedObject.MoveToNewPos();
                 break;
+
             case ToolType.Sell:
-                if (hitObject != null)
-                {
-                    if (hitObject.Data is not CharacterSO) break;
-                    hitObject.Sell();
-                    ClearTool();
-                }
+                placedObject.Sell();
                 break;
         }
+
+        FinishTool();
     }
 
     public void SelectTool(ToolType tool)
@@ -69,8 +77,9 @@ public class ToolManager : MonoBehaviour
         currentTool = tool;
     }
 
-    public void ClearTool() 
-    { 
-        currentTool = ToolType.None; 
+    private void FinishTool()
+    {
+        currentTool = ToolType.None;
+        OnToolDone?.Invoke();
     }
 }

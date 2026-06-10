@@ -1,4 +1,3 @@
-using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -22,6 +21,7 @@ public class CharacterDetailUI : MonoBehaviour
     [SerializeField] private Color unavailableColor;
 
     private CharacterSO characterSO;
+    private CharacterProgress currentProgress;
     private GameObject currentCharacterPreview;
 
     private void Start()
@@ -44,61 +44,70 @@ public class CharacterDetailUI : MonoBehaviour
 
     public void ShowAllDetail()
     {
-        if (CheckHasCharacterSO())
-        {
-            GetAllCharacterStat();
-            ShowCharacter();
-            ShowCharacterName();
-            ShowCharacterStat();
-            ShowProgressSlider(); 
-            UpdateLevelUpButtonState();
-        }
+        if (!CheckHasCharacterSO()) return;
+
+        LoadProgress();
+        GetAllCharacterStat();
+        ShowCharacter();
+        ShowCharacterName();
+        ShowCharacterStat();
+        ShowProgressSlider(); 
+        UpdateLevelUpButtonState();
+    }
+
+    private void LoadProgress()
+    {
+        currentProgress = SaveManager.LoadCharacter(characterSO.ID) ?? characterSO.CreateDefaultProgress();
     }
 
     private void GetAllCharacterStat()
     {
-        characterSO.GetProgressData(
-            characterSO.DisplayName + "Level",
-            characterSO.DisplayName + "Shard");
-        characterSO.GetStatData(
-            characterSO.DisplayName + "Attack",
-            characterSO.DisplayName + "Health");
+        if (currentProgress == null)
+            currentProgress = characterSO.CreateDefaultProgress();
     }
 
     private void ShowCharacter()
     {
-        if(currentCharacterPreview != null)
+        if (currentCharacterPreview != null)
         {
             Destroy(currentCharacterPreview);
         }
-        currentCharacterPreview = Instantiate(characterSO.Avatar, spawnPos.position, spawnPos.rotation);
-        currentCharacterPreview.transform.localScale = new Vector3(1.65f, 1.65f, 1f);
+        if (characterSO?.Avatar != null)
+        {
+            currentCharacterPreview = Instantiate(characterSO.Avatar, spawnPos.position, spawnPos.rotation);
+            currentCharacterPreview.transform.localScale = new Vector3(1.65f, 1.65f, 1f);
+        }
     }
 
     private void ShowCharacterName()
     {
-        characterName.text = characterSO.DisplayName + "(LV." + characterSO.Level +")";
+        var level = currentProgress != null ? currentProgress.level : characterSO.BaseLevel;
+        characterName.text = characterSO.DisplayName + "(LV." + level +")";
     }
 
     private void ShowCharacterStat()
     {
-        characterHealth.text = characterSO.healthAmount.ToString();
-        characterAtk.text = characterSO.AttackDamage.ToString();
+        characterHealth.text = (currentProgress != null ? currentProgress.currentHealth : characterSO.healthAmount).ToString();
+        characterAtk.text = (currentProgress != null ? currentProgress.attackDamage : characterSO.AttackDamage).ToString();
         characterAtkSpeed.text = characterSO.AttackSpeed.ToString();
     }
 
     private bool ShowProgressSlider()
     {
-        if (characterSO.Level == 0)
+        int level = currentProgress != null ? currentProgress.level : characterSO.BaseLevel;
+        int shards = currentProgress != null ? currentProgress.shards : characterSO.BaseCharacterShard;
+
+        if (level == 0)
         {
             progressSlider.value = 1f;
         }
         else
         {
-            progressSlider.value = (float)characterSO.CharacterShard / (characterSO.Level * 10);
+            progressSlider.value = (float)shards / (level * 10);
         }
-        progressText.text = characterSO.CharacterShard.ToString() + "/" + (characterSO.Level * 10).ToString();
-        return progressSlider.value >= 1;
+
+        progressText.text = shards.ToString() + "/" + (level * 10).ToString();
+        return progressSlider.value >= 1f;
     }
 
     private void UpdateLevelUpButtonState()
@@ -112,16 +121,21 @@ public class CharacterDetailUI : MonoBehaviour
 
     private void LevelUp()
     {
-        int requireShard = characterSO.Level * 10;
+        if (currentProgress == null) LoadProgress();
 
-        if (characterSO.Level == 0)
-            requireShard = 0;
+        int level = currentProgress.level;
+        int requireShard = level * 10;
+        if (level == 0) requireShard = 0;
 
-        if (characterSO.CharacterShard >= requireShard)
+        if (currentProgress.shards >= requireShard)
         {
-            characterSO.MinusCharacterShard(requireShard, characterSO.DisplayName + "Shard");
-            characterSO.LevelUp(characterSO.DisplayName + "Level"); 
-            characterSO.UpgradeStats(characterSO.DisplayName + "Attack", characterSO.DisplayName + "Health");
+            currentProgress.shards -= requireShard;
+            currentProgress.level += 1;
+
+            currentProgress.attackDamage = characterSO.GetAttackDamageForLevel(currentProgress.level);
+            currentProgress.currentHealth = characterSO.GetHealthForLevel(currentProgress.level);
+
+            SaveManager.SaveCharacter(currentProgress);
         }
     }
 }

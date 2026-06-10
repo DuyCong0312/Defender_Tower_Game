@@ -12,6 +12,9 @@ public class BaseCharacter : MonoBehaviour
 
     protected bool isBusy = false;
 
+    protected float runtimeAttackDamage;
+    protected float runtimeMovementSpeed;
+
     protected virtual void Awake()
     {
         checkHit = GetComponent<CheckHit>();
@@ -19,9 +22,18 @@ public class BaseCharacter : MonoBehaviour
     }
     protected virtual void OnEnable()
     {
-        characterSO.GetStatData(
-            characterSO.DisplayName + "Attack",
-            characterSO.DisplayName + "Health");
+        if (characterSO != null)
+        {
+            var prog = SaveManager.LoadCharacter(characterSO.ID);
+            runtimeAttackDamage = prog != null ? prog.attackDamage : characterSO.AttackDamage;
+            runtimeMovementSpeed = characterSO.MovementSpeed;
+        }
+        else
+        {
+            runtimeAttackDamage = 0f;
+            runtimeMovementSpeed = 0f;
+        }
+
         characterAnimation.OnAnimationEvent += HandleAnimationEvent;
         characterAnimation.OnAnimationComplete += HandleAnimationComplete;
     }
@@ -61,7 +73,7 @@ public class BaseCharacter : MonoBehaviour
     protected virtual void Move()
     {
         characterAnimation.SetState(CharacterState.Run);
-        transform.Translate(Vector2.right * characterSO.MovementSpeed * Time.deltaTime);
+        transform.Translate(Vector2.right * runtimeMovementSpeed * Time.deltaTime);
     }
 
     protected virtual void Attack()
@@ -81,7 +93,7 @@ public class BaseCharacter : MonoBehaviour
                 BaseHealth enemyHealth = enemy.GetComponentInParent<BaseHealth>();
                 if (enemyHealth != null)
                 {
-                    enemyHealth.TakeDamage(characterSO.AttackDamage);
+                    enemyHealth.TakeDamage(runtimeAttackDamage);
                 }
             }
         }

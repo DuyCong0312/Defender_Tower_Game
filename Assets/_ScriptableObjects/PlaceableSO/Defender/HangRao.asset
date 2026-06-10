@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0784e1fc1d0f6cd48afb40c824b432a5, type: 3}
   m_Name: HangRao
   m_EditorClassIdentifier: Assembly-CSharp::StructuresSO
-  id: 6
+  id: 7
   displayName: HangRao
   price: 500
   avatar: {fileID: 1693208444009864854, guid: 46cfc81180f7a334089e15cec0497b3b, type: 3}

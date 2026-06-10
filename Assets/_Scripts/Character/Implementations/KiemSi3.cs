@@ -58,7 +58,7 @@ public class KiemSi3 : BaseCharacter
                     BaseHealth enemyHealth = enemy.GetComponentInParent<BaseHealth>();
                     if (enemyHealth != null)
                     {
-                        enemyHealth.TakeDamage(characterSO.AttackDamage);
+                        enemyHealth.TakeDamage(runtimeAttackDamage);
                     }
                 }
             }
@@ -69,7 +69,7 @@ public class KiemSi3 : BaseCharacter
                     BaseHealth enemyHealth = enemy.GetComponentInParent<BaseHealth>();
                     if (enemyHealth != null)
                     {
-                        enemyHealth.TakeDamage(characterSO.AttackDamage * 1.5f);
+                        enemyHealth.TakeDamage(runtimeAttackDamage * 1.5f);
                     }
                 }
             }

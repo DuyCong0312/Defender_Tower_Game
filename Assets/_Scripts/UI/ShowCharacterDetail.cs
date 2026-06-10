@@ -37,9 +37,11 @@ public class ShowCharacterDetail : MonoBehaviour
 
     private void GiveCharacterShard()
     {
-        foreach (CharacterSO character in  characterSO)
+        foreach (CharacterSO character in characterSO)
         {
-            character.AddCharacterShard(10, character.DisplayName + "Shard");
+            var prog = SaveManager.LoadCharacter(character.ID) ?? character.CreateDefaultProgress();
+            prog.shards += 10;
+            SaveManager.SaveCharacter(prog);
         }
         characterDetailUI.ShowAllDetail();
     }

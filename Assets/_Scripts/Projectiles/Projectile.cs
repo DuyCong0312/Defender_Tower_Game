@@ -4,63 +4,62 @@ using UnityEngine.TextCore.Text;
 
 public class Projectile : MonoBehaviour
 {
-    private Rigidbody2D rb;
-    [SerializeField] private float timeExist = 2f;
-    [SerializeField] private float speed = 10f;
-    private GameObject owner;
+    protected Rigidbody2D rb;
+    [SerializeField] protected float speed = 10f;
+    protected GameObject owner;
+    protected float attackDamage;
 
-    private Renderer sr;
-    private Camera cam;
+    protected Renderer sr;
+    protected Camera cam;
 
-    public void SetOwner(GameObject owner)
+    public virtual void SetOwner(GameObject owner, float damage)
     {
         this.owner = owner;
+        this.attackDamage = damage;
     }
 
-    private void Start()
+    protected virtual void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         sr = GetComponentInChildren<Renderer>();
         cam = Camera.main;
+    }
+
+    protected virtual void Start()
+    {
         ProjectileMove();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
-        timeExist -= Time.deltaTime;
         WayToDestroy();
     }
 
-    private void ProjectileMove()
+    protected virtual void ProjectileMove()
     {
         rb.linearVelocity = transform.right * speed;
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    protected virtual void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == owner) return;
-
-        if (owner.GetComponent<BaseCharacter>().defender)
-        {
-            if (collision.gameObject.CompareTag(CONSTANT.Wall) ||
-                collision.gameObject.CompareTag(CONSTANT.Character)) return;
-        }
+        if (collision.gameObject.CompareTag(CONSTANT.Wall) ||
+            collision.gameObject.CompareTag(CONSTANT.Character)) return;
 
         if (collision.gameObject.CompareTag(CONSTANT.Enemy))
         {
             BaseHealth enemyHealth = collision.GetComponentInParent<BaseHealth>();
             if (enemyHealth != null)
             {
-                enemyHealth.TakeDamage(owner.GetComponent<BaseCharacter>().GetCharacterSO().AttackDamage);
+                enemyHealth.TakeDamage(attackDamage);
             }
-            Destroy(this.gameObject);
+            Destroy(this.gameObject); 
+            return;
         }
-
-        Debug.Log(collision.name);
     }
 
-    private void WayToDestroy()
+    protected virtual void WayToDestroy()
     {
+        if (sr == null || cam == null) return;
         Bounds bounds = sr.bounds;
         Vector3 min = cam.WorldToViewportPoint(bounds.min);
         Vector3 max = cam.WorldToViewportPoint(bounds.max);
